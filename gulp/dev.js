@@ -79,7 +79,7 @@ function scssDev() {
 
 function copyImagesDev() {
 	return (
-		src(['./src/img/**/*', '!./src/img/**/*.svg', './src/img/logo.svg'])
+		src(['./src/img/**/*', '!./src/img/**/*.svg'])
 			.pipe(changed('./build/img/'))
 			// .pipe(imagemin({ verbose: true })) // настройка включает отображение в консоли какие файлы были оптимизированы и сколько места сэкономлено
 			.pipe(dest('./build/img/'))
