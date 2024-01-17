@@ -1,0 +1,17 @@
+
+.explore-btn {
+	display: flex;
+}
+.explore-btn-text-block {
+	padding: 14px 28px 16px 20px;
+	color: #000;
+	background-color: var(--color-orange);
+}
+.explore-btn-text {
+	line-height: 20px;
+	@extend %font-Muli-600;
+}
+.explore-btn-icon-block {
+	padding: 13px;
+}
+

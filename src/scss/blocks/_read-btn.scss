@@ -1,0 +1,17 @@
+
+.read-btn {
+	display: flex;
+}
+.read-btn-text-block {
+	padding: 12px 28px 12px 20px;
+	color: #000;
+	background-color: var(--color-orange);
+}
+.read-btn-text {
+	line-height: 20px;
+	@extend %font-Muli-600;
+}
+.read-btn-icon-block {
+	padding: 13px;
+}
+

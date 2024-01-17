@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="905" viewBox="0 0 1440 905">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0a0d13" stop-opacity="0.541"/>
+      <stop offset="0.194" stop-color="#4e5055" stop-opacity="0"/>
+      <stop offset="0.653" stop-color="#0a0d13" stop-opacity="0.651"/>
+      <stop offset="1" stop-color="#0a0d13"/>
+    </linearGradient>
+  </defs>
+  <rect id="Прямоугольник_11" data-name="Прямоугольник 11" width="1440" height="905" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,10 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	@extend %font-Muli-400;
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	overflow-x: hidden;
+}
