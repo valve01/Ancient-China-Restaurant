@@ -5,11 +5,15 @@
 	// --font-main: sans-serif;
 	// --font-accent: 'Playfair Display', serif;
 
-	--color-bg: #0a0d13;
-	--color-text: #ffffff;
-	--color-orange-dark: #e89400;
-	--color-orange: #f49f0a;
-	--color-gray: #1f242e;
+	--color-bg: #f5f5f5;
+	--color-text-light: #ffffff;
+	--color-text-dark: #141414;
+	--color-accent: #d3001f;
+	--color-hover: #ee0000;
+	--color-btn-separator: #7b0012;
+	--color-stroke-dark: rgba($color: #000000, $alpha: 0.3);
+	--color-stroke-medium: rgba($color: #141414, $alpha: 0.3);
+	--color-stroke-light: #d9d9d9;
 
 	--laptop-size: 1199px;
 	--tablet-size: 959px;
@@ -21,16 +25,63 @@
 // $mobile-size: 599px;
 
 .dark {
-	--page-bg-color: #252526;
-	--text-color: #fff;
+	--color-bg: #141414;
+	--color-text-light: #fff;
+	--color-text-dark: #fff;
 }
 
-// %font-Muli-700 {
-// 	font: {
-// 		family: 'Muli';
-// 		weight: 700;
-// 		style: normal;
-// 	}
-// }
+%font-Gilroy-300 {
+	font: {
+		family: 'Gilroy';
+		weight: 300;
+		style: normal;
+	}
+}
 
+%font-Gilroy-400 {
+	font: {
+		family: 'Gilroy';
+		weight: 400;
+		style: normal;
+	}
+}
 
+%font-Gilroy-500 {
+	font: {
+		family: 'Gilroy';
+		weight: 500;
+		style: normal;
+	}
+}
+
+%font-Gilroy-700 {
+	font: {
+		family: 'Gilroy';
+		weight: 700;
+		style: normal;
+	}
+}
+
+%font-Gilroy-400 {
+	font: {
+		family: 'Microsoft Jhenghei';
+		weight: 400;
+		style: normal;
+	}
+}
+
+%font-Gilroy-700 {
+	font: {
+		family: 'Microsoft Jhenghei';
+		weight: 700;
+		style: normal;
+	}
+}
+
+%font-Gilroy-400 {
+	font: {
+		family: 'Oranienbaum';
+		weight: 400;
+		style: normal;
+	}
+}
