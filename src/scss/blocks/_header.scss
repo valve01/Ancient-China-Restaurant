@@ -1,21 +1,95 @@
 
 
+
+
+
 .header {
-	background-color: rgb(62, 184, 184);
-	border-bottom: #93a0a7 solid 1px;
-	backdrop-filter: blur(10px) brightness(75%);
-	&__container {
-		padding: 28px 0;
-		display: flex;
-		justify-content: space-between;
-	}
-	&__inner {
-		display: flex;
-		justify-content: end;
-		align-items: center;
-		text-transform: capitalize;
-	}
-	&__search-link {
-	}
+		&__inner {
+		}
+		&__top {
+		}
+		&__point-info {
+		}
+		&__point-adress {
+		}
+		&__point-adress-text {
+		}
+		&__point-work-time {
+		}
+		&__point-work-time-text {
+		}
+		&__user {
+		}
+		&__phone {
+		}
+		&__phone-text {
+		}
+		&__user-cab-link {
+		}
+		&__cart-link {
+		}
+		&__cart-items-qauntity {
+		}
+		&__slider {
+		}
+		&__slide {
+		}
+		&__slide-1 {
+		}
+		&__slider-text-block {
+		}
+		&__slider-text-top {
+		}
+		&__slider-text-main {
+		}
+		&__slider-text-chi {
+		}
+		&__slide-2 {
+		}
+		&__slide-3 {
+		}
+		&__slide-4 {
+		}
+		&__slider-prev-btn {
+		}
+		&__slider-next-btn {
+		}
+		&__slider-points {
+		}
+		&__slider-point {
+		}
+}
+
+.mobile-burger {
+		&__btn {
+		}
+}
+.menu {
+		&__item {
+		}
+		&__link {
+		}
+		&__text-rus {
+		}
+		&__text-chi {
+		}
+}
+.logo {
+}
+.booking {
+		&__link {
+		}
+		&__text-rus {
+		}
+		&__text-chi {
+		}
+}
+.delivery {
+		&__link {
+		}
+		&__text-chi {
+		}
+		&__text-rus {
+		}
 }
 
