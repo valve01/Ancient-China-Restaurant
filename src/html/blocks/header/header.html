@@ -15,130 +15,91 @@
 
 <body class="body">
 	<header class="header">
-		<div class="container">
-			<div class="header__inner">
-				<div class="header__top">
-					<div class="header__point-info">
-
-						<button class="header__point-adress">
-							<img src="" alt="">
-							<span class="header__point-adress-text">ул. Верхние Поля, дв56с4, Москва</span>
-						</button>
-
-						<div class="header__point-work-time">
-							<img src="" alt="">
-							<span class="header__point-work-time-text">с 9:00-03:00</span>
-						</div>
-					</div>
-
-					<nav class="mobile-burger__btn">
-						<ul class="menu">
-							<li class="menu__item">
-								<a href="#" class="menu__link">
-									<span class="menu__text-rus">Меню</span>
-									<span class="menu__text-chi">菜单</span>
-								</a>
-							</li>
-							<li class="menu__item">
-								<a href="#" class="menu__link">
-									<span class="menu__text-rus">О ресторане</span>
-									<span class="menu__text-chi">关于该餐厅 </span>
-								</a>
-							</li>
-							<li class="menu__item">
-								<a href="#" class="menu__link">
-									<span class="menu__text-rus">Доставка</span>
-									<span class="menu__text-chi">送货 </span>
-								</a>
-							</li>
-							<li class="menu__item">
-								<a href="#" class="menu__link">
-									<span class="menu__text-rus">Информация</span>
-									<span class="menu__text-chi">信息</span>
-								</a>
-							</li>
-							<li class="menu__item">
-								<a href="#" class="menu__link">
-									<span class="menu__text-rus">Контакты</span>
-									<span class="menu__text-chi">联系我们</span>
-								</a>
-							</li>
-						</ul>
-					</nav>
-
-					<div class="header__user">
-						<div class="header__phone">
-							<img src="" alt="" class="">
-							<span class="header__phone-text">+7 954 123-85-07</span>
-						</div>
-						<a href="#" class="header__user-cab-link">
-							<img src="" alt="">
-						</a>
-						<a href="#" class="header__cart-link">
-							<img src="" alt="">
-							<span class="header__cart-items-qauntity">2</span>
-						</a>
-					</div>
-
-				</div>
-
-				<div class="logo">
-					<img src="" alt="">
-				</div>
-
-				<div class="header__slider">
-					<div class="header__slide header__slide-1"></div>
-					<div class="header__slider-text-block">
-						<div class="header__slider-text-top">с 27 июля - 13 августа</div>
-						<div class="header__slider-text-main">ФЕСТИВАЛЬ КИТАЙСКОЙ ЕДЫ</div>
-						<div class="header__slider-text-chi">中国美食节</div>
-					</div>
-					<div class="header__slide header__slide-2"></div>
-					<div class="header__slider-text-block">
-						<div class="header__slider-text-top">с 27 июля - 13 августа</div>
-						<div class="header__slider-text-main">ФЕСТИВАЛЬ КИТАЙСКОЙ ЕДЫ</div>
-						<div class="header__slider-text-chi">中国美食节</div>
-					</div>
-					<div class="header__slide header__slide-3"></div>
-					<div class="header__slider-text-block">
-						<div class="header__slider-text-top">СКИДКИ до 25%</div>
-						<div class="header__slider-text-main">ПОПРОБУЙТЕ НОВОЕ ЛЕТНЕЕ МЕНЮ</div>
-						<div class="header__slider-text-chi">尝试新的夏季菜单</div>
-					</div>
-					<div class="header__slide header__slide-4"></div>
-					<div class="header__slider-text-block">
-						<div class="header__slider-text-top">ДОБРО ПОЖАЛОВАТЬ В</div>
-						<div class="header__slider-text-main">РЕСТОРАН КИТАЙСКОЙ КУХНИ</div>
-						<div class="header__slider-text-chi">欢迎光临 中国餐厅</div>
-					</div>
-
-					<div class="header__slider-prev-btn">
+		<div class="header__inner">
+			@@include('header-slider.html')
+			<div class="header__top">
+				<div class="header__point-info">
+					<button class="header__point-adress">
 						<img src="" alt="">
-					</div>
+						<span class="header__point-adress-text">ул. Верхние Поля, дв56с4, Москва</span>
+					</button>
 
-					<div class="header__slider-next-btn">
+					<div class="header__point-work-time">
 						<img src="" alt="">
-					</div>
-
-					<div class="header__slider-points">
-						<div class="header__slider-point"></div>
-						<div class="header__slider-point"></div>
-						<div class="header__slider-point"></div>
-						<div class="header__slider-point"></div>
+						<span class="header__point-work-time-text">с 9:00-03:00</span>
 					</div>
 				</div>
-				<div class="booking">
-					<a href="#" class="booking__link">
-						<span class="booking__text-rus">Забронировать стол</span>
-						<span class="booking__text-chi">预订座位</span>
+
+				<nav class="navigation">
+					<button class="mobile-burger-btn"><img src="img/sprite.svg#icons--burger"
+							class="svg-icons--burger-dims" style="width: 37px; " alt="icons--burger"></button>
+					<ul class="menu">
+						<li class="menu__item">
+							<a href="#" class="menu__link">
+								<span class="menu__text-rus">Меню</span>
+								<span class="menu__text-chi">菜单</span>
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">
+								<span class="menu__text-rus">О ресторане</span>
+								<span class="menu__text-chi">关于该餐厅 </span>
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">
+								<span class="menu__text-rus">Доставка</span>
+								<span class="menu__text-chi">送货 </span>
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">
+								<span class="menu__text-rus">Информация</span>
+								<span class="menu__text-chi">信息</span>
+							</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">
+								<span class="menu__text-rus">Контакты</span>
+								<span class="menu__text-chi">联系我们</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="header__user">
+					<div class="header__phone">
+						<img src="" alt="" class="">
+						<span class="header__phone-text">+7 954 123-85-07</span>
+					</div>
+					<a href="#" class="header__user-cab-link">
+						<img src="" alt="">
+					</a>
+					<a href="#" class="header__cart-link">
+						<img src="" alt="">
+						<span class="header__cart-items-qauntity">2</span>
 					</a>
 				</div>
-				<div class="delivery">
-					<a href="#" class="delivery__link">
-						<span class="delivery__text-chi">食品配送</span>
-						<span class="delivery__text-rus">ДОСТАВКА ЕДЫ НА ДОМ</span>
-					</a>
-				</div>
+
+			</div>
+
+			<div class="logo">
+				<img src="img/logo.png" class="svg-header--logo-dims" alt="header--logo">
+			</div>
+
+
+			<div class="booking">
+				<a href="#" class="booking__link">
+					<span class="booking__text-rus">Забронировать стол</span>
+					<span class="booking__text-chi">预订座位</span>
+				</a>
+			</div>
+			<div class="delivery">
+				<a href="#" class="delivery__link">
+					<span class="delivery__text-chi">食品配送</span>
+					<span class="delivery__text-rus">ДОСТАВКА ЕДЫ НА ДОМ</span>
+				</a>
 			</div>
 		</div>
+
 	</header>
