@@ -1,95 +1,107 @@
-
-
-
-
-
 .header {
-		&__inner {
-		}
-		&__top {
-		}
-		&__point-info {
-		}
-		&__point-adress {
-		}
-		&__point-adress-text {
-		}
-		&__point-work-time {
-		}
-		&__point-work-time-text {
-		}
-		&__user {
-		}
-		&__phone {
-		}
-		&__phone-text {
-		}
-		&__user-cab-link {
-		}
-		&__cart-link {
-		}
-		&__cart-items-qauntity {
-		}
-		&__slider {
-		}
-		&__slide {
-		}
-		&__slide-1 {
-		}
-		&__slider-text-block {
-		}
-		&__slider-text-top {
-		}
-		&__slider-text-main {
-		}
-		&__slider-text-chi {
-		}
-		&__slide-2 {
-		}
-		&__slide-3 {
-		}
-		&__slide-4 {
-		}
-		&__slider-prev-btn {
-		}
-		&__slider-next-btn {
-		}
-		&__slider-points {
-		}
-		&__slider-point {
-		}
+	&__inner {
+	}
+	&__top {
+	}
+	&__point-info {
+	}
+	&__point-adress {
+	}
+	&__point-adress-text {
+	}
+	&__point-work-time {
+	}
+	&__point-work-time-text {
+	}
+	&__user {
+	}
+	&__phone {
+	}
+	&__phone-text {
+	}
+	&__user-cab-link {
+	}
+	&__cart-link {
+	}
+	&__cart-items-qauntity {
+	}
+	&__slider {
+	}
+	&__slide {
+		border-radius: 0px 0px 60px 60px;
+		min-width: 360px;
+		min-height: 482px;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+	}
+
+	&__slider-text-block {
+	}
+	&__slider-text-top {
+	}
+	&__slider-text-main {
+	}
+	&__slider-text-chi {
+	}
+	&__slide-1 {
+		background-image: url('../img/main/main-slider/bg-1.png');
+		background-position: 34% 0;
+	}
+	&__slide-2 {
+		background-image: url('../img/main/main-slider/bg-2.png');
+		background-position: 42% 0;
+		display: none;
+	}
+	&__slide-3 {
+		background-image: url('../img/main/main-slider/bg-3.png');
+		background-position: 50% 0;
+		display: none;
+	}
+	&__slide-4 {
+		background-image: url('../img/main/main-slider/bg-4.png');
+		background-position: 40% 0;
+		display: none;
+	}
+	&__slider-prev-btn {
+	}
+	&__slider-next-btn {
+	}
+	&__slider-points {
+	}
+	&__slider-point {
+	}
 }
 
 .mobile-burger {
-		&__btn {
-		}
+	&__btn {
+	}
 }
 .menu {
-		&__item {
-		}
-		&__link {
-		}
-		&__text-rus {
-		}
-		&__text-chi {
-		}
+	&__item {
+	}
+	&__link {
+	}
+	&__text-rus {
+	}
+	&__text-chi {
+	}
 }
 .logo {
 }
 .booking {
-		&__link {
-		}
-		&__text-rus {
-		}
-		&__text-chi {
-		}
+	&__link {
+	}
+	&__text-rus {
+	}
+	&__text-chi {
+	}
 }
 .delivery {
-		&__link {
-		}
-		&__text-chi {
-		}
-		&__text-rus {
-		}
+	&__link {
+	}
+	&__text-chi {
+	}
+	&__text-rus {
+	}
 }
-
