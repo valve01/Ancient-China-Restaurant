@@ -37,17 +37,34 @@
 		width: 36px;
 		border-radius: 50%;
 		background-color: var(--color-accent);
-		display: flex;
 		margin-right: 8px;
+		display: grid;
+		justify-content: center;
+		align-items: center;
 	}
 	&__cart-link {
-		display: flex;
 		height: 36px;
 		width: 36px;
 		border-radius: 50%;
 		background-color: var(--color-accent);
+		display: grid;
+		justify-content: center;
+		align-items: center;
+		position: relative;
 	}
 	&__cart-items-qauntity {
+		text-align: center;
+		padding-top: 1px;
+		width: 15px;
+		height: 15px;
+		position: absolute;
+		top: -3px;
+		right: -6px;
+		@extend %font-Gilroy-500;
+		font-size: 11px;
+		background-color: var(--color-text-light);
+		border-radius: 50%;
+
 	}
 	&__booking {
 		color: var(--color-text-light);
@@ -57,17 +74,17 @@
 		align-items: center;
 		text-transform: uppercase;
 		position: absolute;
-		left: calc(50% - 110px);
-		width: 220px;
+		left: calc(50% - 111px);
+		width: 222px;
 		height: 53px;
 		background-color: var(--color-accent);
 		border-radius: 7px;
 	}
 	&__booking-text-rus {
-		@extend %font-Gilroy-700;
+		@extend %font-Gilroy-500;
 		font-size: 11px;
 		text-align: right;
-		margin: 13px;
+		margin: 13px 17px;
 	}
 	&__booking-text {
 	}
@@ -123,5 +140,9 @@
 	top: 20px;
 	left: calc(50% - 51px);
 }
-
-
+.svg-header--user-dims {
+	width: 16px;
+}
+.svg-main--menu--cart-dims {
+	width: 18px;
+}
