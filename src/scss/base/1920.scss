@@ -1,7 +1,127 @@
 //Mobile first
-// @media (min-width: 1920px) {
+@media (min-width: 1920px) {
+	.header {
+		&__slide {
+			min-height: 684px;
+		}
+		&__slider-text-block {
+			margin-top: 292px;
+		}
+		&__slider-text-top {
+			line-height: 54px;
+			font-size: 40px;
+		}
+		&__slider-text-main {
+			line-height: 79px;
+			max-width: none;
+			font-size: 79px;
+		}
+		&__slider-text-chi {
+			font-size: 40px;
+			font-weight: 400;
+		}
+		&__top {
+			padding: 15px 40px;
+		}
+		&__phone {
+			position: static;
+			margin-right: 20px;
+		}
+		&__user-tools {
+			position: static;
+		}
+		&__user-cab-link {margin-right: 20px;
+		}
+		&__cart-link {
+			
+			position: relative;
+		}
+		&__cart-items-qauntity {
+			width: 22px;
+			height: 22px;
+			top: -4px;
+			right: -9px;
+			font-size: 16px;
+		}
+		&__booking-block {
+			left: 40px;
+			right: 40px;
+		}
+		&__booking-link {
+			width: 307px;
+			height: 76px;
+			border-radius: 10px;
+		}
+		&__booking-text-chi {
+			font-size: 20px;
+			padding: 15px;
+			min-width: 118px;
+		}
+		&__point-info {
+			display: flex;
+			column-gap: 35px;
+		}
+		&__point-adress {
+			display: flex;
+			column-gap: 8px;
+		}
+		&__point-adress-text {
+			padding-bottom: 4px;
+			border-bottom: 2px dashed var(--color-text-light);
+		}
+		&__point-work-time {
+			display: flex;
+			column-gap: 12px;
+		}
+		&__point-work-time-text {
+		}
+	}
+	.svg-footer--map-dims {
+		width: 19px;
+	}
+	.svg-header--time-dims {
+		width: 19px;
+	}
+	.slick-dots {
+		bottom: 24px;
+	}
+	.delivery {
+		&__link {
+			& > .header__booking-text-rus {
+				max-width: 152px;
+			}
+		}
+	}
+	.mobile-burger-btn {
+		display: none;
+	}
+	.menu {
+		text-transform: uppercase;
+		color: var(--color-text-light);
+		display: flex;
+		column-gap: 42px;
+		justify-content: center;
 
-// }
+		&__link {
+			display: grid;
+			grid-template-rows: repeat(1fr);
+			justify-items: center;
+		}
+		&__text-rus {
+			font-size: 18px;
+		}
+		&__text-chi {
+			font-size: 16px;
+		}
+	}
+	.logo {
+		width: 160px;
+		height: 160px;
+		position: absolute;
+		top: 102px;
+		left: calc(50% - 80px);
+	}
+}
 
 // Desktop first
 // @media (max-width: 1920px) {
