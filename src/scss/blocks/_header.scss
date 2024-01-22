@@ -49,7 +49,60 @@
 	}
 	&__cart-items-qauntity {
 	}
+	&__booking {
+		color: var(--color-text-light);
+	}
+	&__booking-link {
+		display: flex;
+		align-items: center;
+		text-transform: uppercase;
+		position: absolute;
+		left: calc(50% - 110px);
+		width: 220px;
+		height: 53px;
+		background-color: var(--color-accent);
+		border-radius: 7px;
+	}
+	&__booking-text-rus {
+		@extend %font-Gilroy-700;
+		font-size: 11px;
+		text-align: right;
+		margin: 13px;
+	}
+	&__booking-text {
+	}
+	&__booking-separator {
+		height: 45px;
+		width: 1px;
+		background-color: var(--color-btn-separator);
+	}
+	&__booking-text-chi {
+		@extend %font-Microsoft-Jhenghei-700;
+		font-size: 14px;
+		padding: 17px;
+		min-width: 90px;
+	}
 }
+
+.booking {
+	&__link {
+		top: 316px;
+	}
+}
+.delivery {
+	&__link {
+		top: 377px;
+		& > .header__booking-text-rus {
+			order: 3;
+			text-align: left;
+			max-width: 98px;
+		}
+		& > .header__booking-separator {
+			order: 2;
+		}
+	}
+}
+
 .mobile-burger-btn {
 }
 .menu {
@@ -70,51 +123,5 @@
 	top: 20px;
 	left: calc(50% - 51px);
 }
-.booking {
-	border-radius: 7px;
-	color: var(--color-text-light);
-	left: calc(50% - 110px);
-	max-width: 220px;
-	text-transform: uppercase;
-	top: 316px;
-	position: absolute;
-	background-color: var(--color-accent);
-	&__link {
-		display: flex;
-		align-items: center;
-	}
-	&__text-rus {
-		padding: 13px;
-		text-align: right;
-		font-size: 11px;
-	}
-	&__text-chi {
-		min-width: 88px;
-		padding: 13px;
-		font-size: 14px;
-	}
-}
-.delivery {
-	border-radius: 7px;
-	color: var(--color-text-light);
-	left: calc(50% - 110px);
-	max-width: 220px;
-	top: 377px;
-	text-transform: uppercase;
-	position: absolute;
-	background-color: var(--color-accent);
-	&__link {
-		display: flex;
-		align-items: center;
-	}
-	&__text-chi {
-		min-width: 88px;
-		padding: 13px;
-		font-size: 14px;
-	}
-	&__text-rus {
-		padding: 13px;
-		text-align: left;
-		font-size: 11px;
-	}
-}
+
+
