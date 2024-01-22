@@ -25,7 +25,10 @@
 		color: var(--color-text-light);
 		text-transform: uppercase;
 	}
-	&__slider-text-top {
+	&__slider-text-top{
+		
+	}
+	&__slider-text-top-text {
 		@extend %font-Oranienbaum-400;
 		font-size: 19px;
 	}
