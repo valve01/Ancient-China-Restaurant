@@ -19,8 +19,8 @@ $('.header__slider').slick({
 	speed: 300,
 	slidesToShow: 1,
 	slidesToScroll: 1,
-	prevArrow: '<button type="button" class="header__slider-prev"></button>',
-	nextArrow: '<button type="button" class="header__slider-next"></button>',
+	prevArrow: '<button type="button" class="header__slider-prev header__slider-arrows"></button>',
+	nextArrow: '<button type="button" class="header__slider-next header__slider-arrows"></button>',
 	responsive: [
 		{
 			breakpoint: 1024,

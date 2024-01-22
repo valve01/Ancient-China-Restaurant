@@ -59,8 +59,8 @@
 			column-gap: 21px;
 			position: absolute;
 			top: 496px;
-			left: 20px;
-			right: 20px;
+			left: calc(50% - 280px);
+			// width: 561px;
 		}
 		&__booking-link {
 			width: 270px;
