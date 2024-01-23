@@ -5,6 +5,10 @@
 
 // Mobile first
 @media (min-width: 600px) {
+	:root {
+		--container-width: 600px;
+		--container-padding: 20px;
+	}
 	.header {
 		&__slide {
 			min-height: 683px;
@@ -38,7 +42,7 @@
 			display: flex;
 			align-items: center;
 		}
-		&__user-tools{
+		&__user-tools {
 			height: 51px;
 			width: 51px;
 		}
@@ -52,7 +56,7 @@
 			right: -9px;
 			font-size: 16px;
 		}
-		&__booking-block{
+		&__booking-block {
 			display: flex;
 			flex-direction: row;
 			justify-content: center;
@@ -60,7 +64,6 @@
 			position: absolute;
 			top: 496px;
 			left: calc(50% - 280px);
-			// width: 561px;
 		}
 		&__booking-link {
 			width: 270px;
@@ -131,5 +134,52 @@
 	.svg-header--phone-dims {
 		width: 17px;
 		height: 17px;
+	}
+	// Features========================================================================
+	.features {
+		&__inner {
+			margin-top: 24px;
+		}
+		&__list {
+			gap: 11px 27px;
+		}
+		&__item {
+			width: 270px;
+			grid-template-columns: 100px 1fr;
+			border-radius: 10px;
+		}
+		&__text {
+			padding: 13px 11px 13px 0;
+		}
+		&__text-rus {
+			font-size: 16px;
+		}
+		&__text-chi {
+			font-size: 16px;
+		}
+		&__delivery-speed {
+		}
+		&__money {
+		}
+		&__delivery-time {
+		}
+		&__natural-seafood {
+		}
+	}
+	.svg-features--delivery-speed-dims {
+		width: 61px;
+		height: 61px;
+	}
+	.svg-features--money-dims {
+		width: 70px;
+		height: 70px;
+	}
+	.svg-features--delivery-time-dims {
+		width: 61px;
+		height: 61px;
+	}
+	.svg-features--natural-seafood-dims {
+		width: 74px;
+		height: 74px;
 	}
 }
