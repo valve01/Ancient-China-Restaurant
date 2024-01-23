@@ -131,8 +131,23 @@
 .menu {
 	display: none;
 	&__item {
+		&:nth-child(4)>.menu__link>.menu__text-rus{
+			display: flex;
+			align-items: center;
+			column-gap: 7px;
+			&::after{
+				content: '';
+				display: block;
+				width: 8px;
+				height: 6px;
+				background-color: #fff;
+				clip-path: polygon(0 0, 100% 0, 50% 100% )
+
+			}
+		}
 	}
 	&__link {
+// position: relative;
 	}
 	&__text-rus {
 		@extend %font-Gilroy-700;
