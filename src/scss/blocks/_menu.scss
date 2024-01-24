@@ -42,14 +42,37 @@
 		font-size: 24px;
 	}
 	&__card-list {
+		margin-bottom: 24px;
 	}
 	&__see-all-btn {
+		border-radius: 10px;
+		background-color: var(--color-accent);
+		color: var(--color-text-light);
+		display: grid;
+		grid-template-columns: 1fr 1px 1fr;
+		text-align: left;
+		min-width: 340px;
+		min-height: 76px;
+		align-items: center;
+		margin-bottom: 20px;
 	}
 	&__see-all-text-chi {
+		color: var(--color-text-light);
+		padding: 0 42px;
+		font-size: 20px;
+		text-align: center;
 	}
 	&__see-all-separator {
+		background-color: var(--color-btn-separator);
+		height: 63px;
+		width: 1px;
+		padding-top: 7px;
+		padding-bottom: 7px;
 	}
 	&__see-all-text-rus {
+		padding: 18px 29px;
+		color: var(--color-text-light);
+		font-size: 16px;
 	}
 }
 .menu-categories {
