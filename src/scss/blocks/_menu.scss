@@ -93,7 +93,7 @@
 	&__text-chi {
 		@extend %font-Microsoft-Jhenghei-700;
 	}
-	&__menu-arrow-btn{
+	&__menu-arrow-btn {
 		position: absolute;
 		top: calc(50% - 14px);
 		right: 2px;
@@ -101,7 +101,96 @@
 	}
 }
 .dish-card {
+	border: 1px solid var(--color-stroke-medium);
+	border-radius: 10px;
+	margin-top: 14px;
+	padding-bottom: 14px;
+	&:nth-child(1) {
+		& .dish-card__img-container {
+			background-image: url(../img/main/menu/dish-1.png);
+		}
+	}
+	&:nth-child(2) {
+		& .dish-card__img-container {
+			background-image: url(../img/main/menu/dish-2.png);
+		}
+	}
+	&:nth-child(3) {
+		& .dish-card__img-container {
+			background-image: url(../img/main/menu/dish-3.png);
+		}
+	}
+	&:nth-child(4) {
+		& .dish-card__img-container {
+			background-image: url(../img/main/menu/dish-4.png);
+		}
+	}
+	&:nth-child(5) {
+		& .dish-card__img-container {
+			background-image: url(../img/main/menu/dish-5.png);
+		}
+	}
+	&:nth-child(6) {
+		& .dish-card__img-container {
+			background-image: url(../img/main/menu/dish-6.png);
+		}
+	}
+	&:nth-child(7) {
+		display: none;
+		& .dish-card__img-container {
+			background-image: url(../img/main/menu/dish-7.png);
+		}
+	}
+	&:nth-child(8) {
+		display: none;
+		& .dish-card__img-container {
+			background-image: url(../img/main/menu/dish-8.png);
+		}
+	}
+	&:nth-child(9) {
+		display: none;
+		&.dish-card__img-container {
+			background-image: url(../img/main/menu/dish-9.png);
+		}
+	}
+	&:nth-child(10) {
+		display: none;
+		& .dish-card__img-container {
+			background-image: url(../img/main/menu/dish-10.png);
+		}
+	}
+	&:nth-child(11) {
+		display: none;
+		& .dish-card__img-container {
+			background-image: url(../img/main/menu/dish-11.png);
+		}
+	}
+	&:nth-child(12) {
+		display: none;
+		& .dish-card__img-container {
+			background-image: url(../img/main/menu/dish-12.png);
+		}
+	}
+
 	&__img-link {
+		// margin-bottom: 12px;
+		// overflow: hidden;
+		// width: 340px;
+		// height: 236px;
+	}
+	&__img-container {
+		min-height: 236px;
+		min-width: 338px;
+		background-size: cover;
+		margin-left: -1px;
+		margin-right: -1px;
+		margin-top: -1px;
+		background-repeat: no-repeat;
+		background-position: center;
+		border-radius: 10px;
+		border-bottom: 1px solid var(--color-stroke-medium);
+		position: relative;
+		z-index: -1;
 	}
 	&__labels {
 	}
@@ -111,31 +200,101 @@
 	}
 	&__label-sale {
 	}
+	&__text-container {
+		margin-top: 12px;
+		padding-right: 19px;
+		padding-left: 19px;
+	}
 	&__title {
+		color: var(--color-text-dark);
+		margin-bottom: 6px;
 	}
 	&__title-chi {
+		@extend %font-Microsoft-Jhenghei-700;
+		font-size: 18px;
+		&::after {
+			margin-top: 6px;
+			margin-bottom: 6px;
+			content: '';
+			display: block;
+			width: 45px;
+			height: 1px;
+			background-color: #000;
+		}
 	}
 	&__title-rus {
+		@extend %font-Gilroy-700;
+		font-size: 24px;
+		line-height: 98%;
 	}
 	&__weight {
+		font-size: 14px;
+		margin-bottom: 29px;
 	}
 	&__price-block {
+		font-size: 20px;
+		margin-bottom: 14px;
+		display: flex;
+		column-gap: 20px;
 	}
 	&__price-current {
+		@extend %font-Gilroy-700;
 	}
 	&__price-old {
+		text-decoration: line-through;
 	}
 	&__purchase {
+		display: grid;
+		grid-template-columns: 1fr 79px;
+		column-gap: 15px;
 	}
 	&__counter-block {
+		border: 1px solid var(--color-stroke-dark);
+		border-radius: 10px;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		font-size: 24px;
+		justify-items: center;
+		align-items: center;
+		height: 51px;
 	}
 	&__minus {
+		margin-left: 16px;
+		justify-self: start;
+		width: 9px;
+		height: 3px;
+		background-color: var(--color-text-dark);
 	}
 	&__counter {
+		width: 60px;
+		text-align: center;
+		@extend %font-Gilroy-700;
 	}
 	&__plus {
+		width: 9px;
+		height: 9px;
+		background-color: var(--color-text-dark);
+		margin-right: 16px;
+		justify-self: end;
+		clip-path: polygon(
+			3px 3px,
+			3px 0,
+			6px 0,
+			6px 3px,
+			9px 3px,
+			9px 6px,
+			6px 6px,
+			6px 9px,
+			3px 9px,
+			3px 6px,
+			0 6px,
+			0 3px
+		);
 	}
 	&__add-to-cart-btn {
+		background-color: var(--color-accent);
+		padding: 10px 24px;
+		border-radius: 10px;
 	}
 }
 .svg-main--menu--cart-dims {
@@ -145,5 +304,4 @@
 .svg-main--menu--arrow-dims {
 	width: 28px;
 	height: 28px;
-
 }
