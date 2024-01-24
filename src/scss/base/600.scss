@@ -144,9 +144,13 @@
 			gap: 11px 27px;
 		}
 		&__item {
-			width: 270px;
+			width: 90%;
 			grid-template-columns: 100px 1fr;
 			border-radius: 10px;
+			justify-self: end;
+			&:nth-child(2n) {
+				justify-self: start;
+			}
 		}
 		&__text {
 			padding: 13px 11px 13px 0;
