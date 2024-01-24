@@ -50,8 +50,9 @@
 		color: var(--color-text-light);
 		display: grid;
 		grid-template-columns: 1fr 1px 1fr;
-		text-align: left;
 		min-width: 340px;
+		max-width: 80%;
+		margin: 0 auto;
 		min-height: 76px;
 		align-items: center;
 		margin-bottom: 20px;
@@ -127,7 +128,7 @@
 	border: 1px solid var(--color-stroke-medium);
 	border-radius: 10px;
 	margin-top: 14px;
-	padding-bottom: 14px;
+	padding-bottom: 18px;
 	&:nth-child(1) {
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-1.png);
@@ -331,7 +332,9 @@
 	}
 	&__weight {
 		font-size: 14px;
-		margin-bottom: 29px;
+		margin-top: 0;
+		min-height: 100%;
+		margin-bottom: auto;
 	}
 	&__price-block {
 		font-size: 20px;
