@@ -2,13 +2,14 @@
 	&__inner {
 		margin-top: 18px;
 	}
-	&__title-container{
+	&__title-container {
 		position: relative;
 		display: grid;
 		justify-items: center;
 		text-align: center;
 		margin-right: -10px;
 		margin-left: -10px;
+		margin-bottom: 15px;
 		&:before {
 			content: '';
 			position: absolute;
@@ -16,9 +17,9 @@
 			top: 18px;
 			width: 100%;
 			height: 1px;
-			background-color: var(--color-stroke-dark);
+			background-color: var(--color-stroke-medium);
 		}
-		&::after{
+		&::after {
 			content: '';
 			display: block;
 			height: 71px;
@@ -53,14 +54,29 @@
 }
 .menu-categories {
 	&__list {
+		display: flex;
+		background-color: #eeeeee;
+		// overflow: hidden;
+		padding: 5px;
+		border-radius: 25px 0 0 25px;
+		background-image: linear-gradient(90deg, transparent 80%, #eeeeee 100%);
 	}
 	&__item {
+		display: flex;
+		flex-shrink: 0;
+		padding: 9px 19px;
+		border-radius: 20px;
+	}
+	&__item--active {
+		background-color: var(--color-accent);
+		color: var(--color-text-light);
 	}
 	&__link {
 	}
 	&__text-rus {
 	}
 	&__text-chi {
+		@extend %font-Microsoft-Jhenghei-700;
 	}
 }
 .dish-card {
