@@ -109,25 +109,55 @@
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-1.png);
 		}
+		& .dish-card__label-hit {
+			display: none;
+		}
+		& .dish-card__label-sale {
+			display: none;
+		}
 	}
 	&:nth-child(2) {
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-2.png);
+		}
+		& .dish-card__label-hit {
+			display: none;
 		}
 	}
 	&:nth-child(3) {
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-3.png);
 		}
+		& .dish-card__label-new {
+			display: none;
+		}
+		& .dish-card__label-hit {
+			display: none;
+		}
+		& .dish-card__label-sale {
+			display: none;
+		}
 	}
 	&:nth-child(4) {
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-4.png);
 		}
+		& .dish-card__label-new {
+			display: none;
+		}
+		& .dish-card__label-sale {
+			display: none;
+		}
 	}
 	&:nth-child(5) {
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-5.png);
+		}
+		& .dish-card__label-hit {
+			display: none;
+		}
+		& .dish-card__label-new {
+			display: none;
 		}
 	}
 	&:nth-child(6) {
@@ -140,11 +170,20 @@
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-7.png);
 		}
+		& .dish-card__label-new {
+			display: none;
+		}
+		& .dish-card__label-sale {
+			display: none;
+		}
 	}
 	&:nth-child(8) {
 		display: none;
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-8.png);
+		}
+		& .dish-card__label-new {
+			display: none;
 		}
 	}
 	&:nth-child(9) {
@@ -152,11 +191,20 @@
 		&.dish-card__img-container {
 			background-image: url(../img/main/menu/dish-9.png);
 		}
+		& .dish-card__label-new {
+			display: none;
+		}
 	}
 	&:nth-child(10) {
 		display: none;
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-10.png);
+		}
+		& .dish-card__label-hit {
+			display: none;
+		}
+		& .dish-card__label-new {
+			display: none;
 		}
 	}
 	&:nth-child(11) {
@@ -170,13 +218,13 @@
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-12.png);
 		}
+		& .dish-card__label-hit {
+			display: none;
+		}
 	}
 
 	&__img-link {
-		// margin-bottom: 12px;
-		// overflow: hidden;
-		// width: 340px;
-		// height: 236px;
+		position: relative;
 	}
 	&__img-container {
 		min-height: 236px;
@@ -189,16 +237,46 @@
 		background-position: center;
 		border-radius: 10px;
 		border-bottom: 1px solid var(--color-stroke-medium);
-		position: relative;
-		z-index: -1;
 	}
 	&__labels {
+		display: flex;
+		column-gap: 3px;
+		position: absolute;
+		top: 14px;
+		left: 19px;
+		color: var(--color-text-light);
+		text-transform: uppercase;
+		font-size: 11px;
+		letter-spacing: 0.96px;
 	}
 	&__label-new {
+		display: grid;
+		justify-items: center;
+		align-items: center;
+		border-radius: 12px;
+		min-width: 44px;
+		min-height: 23px;
+		background-color: #006cff;
 	}
 	&__label-hit {
+		display: grid;
+		justify-items: end;
+		position: relative;
+		padding-right: 9px;
+		align-items: center;
+		border-radius: 12px;
+		min-width: 44px;
+		min-height: 23px;
+		background-color: #ff0000;
 	}
 	&__label-sale {
+		display: grid;
+		justify-items: center;
+		align-items: center;
+		border-radius: 12px;
+		min-width: 44px;
+		min-height: 23px;
+		background-color: #aa08b9;
 	}
 	&__text-container {
 		margin-top: 12px;
@@ -207,7 +285,7 @@
 	}
 	&__title {
 		color: var(--color-text-dark);
-		margin-bottom: 6px;
+		margin-bottom: 0px;
 	}
 	&__title-chi {
 		@extend %font-Microsoft-Jhenghei-700;
@@ -226,6 +304,7 @@
 		@extend %font-Gilroy-700;
 		font-size: 24px;
 		line-height: 98%;
+		margin-bottom: 6px;
 	}
 	&__weight {
 		font-size: 14px;
