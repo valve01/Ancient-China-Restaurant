@@ -27,8 +27,6 @@
 		&__slider-text-chi {
 			font-size: 40px;
 		}
-		&__inner {
-		}
 		&__top {
 			padding: 20px;
 		}
@@ -74,8 +72,7 @@
 			font-size: 16px;
 			margin: 19px 12px;
 		}
-		&__booking-text {
-		}
+
 		&__booking-separator {
 			height: 63px;
 		}
@@ -104,19 +101,8 @@
 			}
 		}
 	}
-
-	.mobile-burger-btn {
-	}
 	.menu {
 		display: none;
-		&__item {
-		}
-		&__link {
-		}
-		&__text-rus {
-		}
-		&__text-chi {
-		}
 	}
 	.logo {
 		width: 122px;
@@ -161,14 +147,6 @@
 		&__text-chi {
 			font-size: 16px;
 		}
-		&__delivery-speed {
-		}
-		&__money {
-		}
-		&__delivery-time {
-		}
-		&__natural-seafood {
-		}
 	}
 	.svg-features--delivery-speed-dims {
 		width: 61px;
@@ -203,9 +181,6 @@
 				height: 116px;
 			}
 		}
-		&__title {
-		}
-
 		&__title-rus {
 			font-size: 56px;
 			padding-right: 23px;
@@ -215,9 +190,7 @@
 			font-size: 40px;
 		}
 		&__card-list {
-			display: grid;
 			grid-template-columns: repeat(2, 1fr);
-			// grid-template-rows: repeat(3, 1fr);
 			gap: 17px 20px;
 			margin-bottom: 50px;
 			margin-top: 42px;
@@ -225,12 +198,7 @@
 		&__see-all-btn {
 			grid-template-columns: 4fr 1px 6fr;
 			margin-bottom: 70px;
-		}
-		&__see-all-text-chi {
-		}
-		&__see-all-separator {
-		}
-		&__see-all-text-rus {
+			max-width: 380px;
 		}
 	}
 	.menu-categories {
@@ -243,18 +211,11 @@
 			}
 		}
 		&__item {
-
 			padding: 11px 22px;
 			border-radius: 25px;
 		}
-		&__item--active {
-		}
-		&__link {
-		}
 		&__text-rus {
 			font-size: 20px;
-			&::after {
-			}
 		}
 		&__text-chi {
 			font-size: 20px;
@@ -265,169 +226,10 @@
 		}
 	}
 	.dish-card {
-		&:nth-child(1) {
-			& .dish-card__img-container {
-				background-image: url(../img/main/menu/dish-1.png);
-			}
-			& .dish-card__label-hit {
-				display: none;
-			}
-			& .dish-card__label-sale {
-				display: none;
-			}
-		}
-		&:nth-child(2) {
-			& .dish-card__img-container {
-				background-image: url(../img/main/menu/dish-2.png);
-			}
-			& .dish-card__label-hit {
-				display: none;
-			}
-		}
-		&:nth-child(3) {
-			& .dish-card__img-container {
-				background-image: url(../img/main/menu/dish-3.png);
-			}
-			& .dish-card__label-new {
-				display: none;
-			}
-			& .dish-card__label-hit {
-				display: none;
-			}
-			& .dish-card__label-sale {
-				display: none;
-			}
-		}
-		&:nth-child(4) {
-			& .dish-card__img-container {
-				background-image: url(../img/main/menu/dish-4.png);
-			}
-			& .dish-card__label-new {
-				display: none;
-			}
-			& .dish-card__label-sale {
-				display: none;
-			}
-		}
-		&:nth-child(5) {
-			& .dish-card__img-container {
-				background-image: url(../img/main/menu/dish-5.png);
-			}
-			& .dish-card__label-hit {
-				display: none;
-			}
-			& .dish-card__label-new {
-				display: none;
-			}
-		}
-		&:nth-child(6) {
-			& .dish-card__img-container {
-				background-image: url(../img/main/menu/dish-6.png);
-			}
-		}
-		&:nth-child(7) {
-			display: none;
-			& .dish-card__img-container {
-				background-image: url(../img/main/menu/dish-7.png);
-			}
-			& .dish-card__label-new {
-				display: none;
-			}
-			& .dish-card__label-sale {
-				display: none;
-			}
-		}
-		&:nth-child(8) {
-			display: none;
-			& .dish-card__img-container {
-				background-image: url(../img/main/menu/dish-8.png);
-			}
-			& .dish-card__label-new {
-				display: none;
-			}
-		}
-		&:nth-child(9) {
-			display: none;
-			&.dish-card__img-container {
-				background-image: url(../img/main/menu/dish-9.png);
-			}
-			& .dish-card__label-new {
-				display: none;
-			}
-		}
-		&:nth-child(10) {
-			display: none;
-			& .dish-card__img-container {
-				background-image: url(../img/main/menu/dish-10.png);
-			}
-			& .dish-card__label-hit {
-				display: none;
-			}
-			& .dish-card__label-new {
-				display: none;
-			}
-		}
-		&:nth-child(11) {
-			display: none;
-			& .dish-card__img-container {
-				background-image: url(../img/main/menu/dish-11.png);
-			}
-		}
-		&:nth-child(12) {
-			display: none;
-			& .dish-card__img-container {
-				background-image: url(../img/main/menu/dish-12.png);
-			}
-			& .dish-card__label-hit {
-				display: none;
-			}
-		}
-		&__img-link {
-		}
 		&__img-container {
 			min-height: 236px;
 			min-width: 270px;
 		}
-		&__labels {
-		}
-		&__label-new {
-		}
-		&__label-hit {
-		}
-		&__label-sale {
-		}
-		&__text-container {
-		}
-		&__title {
-		}
-		&__title-chi {
-			&::after {
-			}
-		}
-		&__title-rus {
-		}
-		&__weight {
-		}
-		&__price-block {
-		}
-		&__price-current {
-		}
-		&__price-old {
-		}
-		&__purchase {
-		}
-		&__counter-block {
-		}
-		&__minus {
-		}
-		&__counter {
-		}
-		&__plus {
-		}
-		&__add-to-cart-btn {
-		}
-	}
-	.svg-main--menu--cart-dims {
 	}
 	.svg-main--menu--arrow-dims {
 		width: 35px;

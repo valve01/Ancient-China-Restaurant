@@ -46,7 +46,6 @@
 		margin-bottom: 24px;
 		display: grid;
 		grid-template-columns: 1fr;
-		// grid-template-rows: repeat(6, 1fr);
 		row-gap: 14px;
 	}
 	&__see-all-btn {
@@ -60,11 +59,12 @@
 		margin: 0 auto;
 		min-height: 76px;
 		align-items: center;
+		justify-items: center;
 		margin-bottom: 20px;
 	}
 	&__see-all-text-chi {
 		color: var(--color-text-light);
-		padding: 0 42px;
+		padding: 0 35px;
 		font-size: 20px;
 		text-align: center;
 	}
@@ -76,7 +76,8 @@
 		padding-bottom: 7px;
 	}
 	&__see-all-text-rus {
-		padding: 18px 29px;
+		max-width: 110px;
+		padding: 18px 0px;
 		color: var(--color-text-light);
 		font-size: 16px;
 	}
@@ -90,7 +91,6 @@
 		overflow: hidden;
 		padding: 5px;
 		border-radius: 25px 0 0 25px;
-
 		&::after {
 			content: '';
 			top: 0;
@@ -111,8 +111,6 @@
 	&__item--active {
 		background-color: var(--color-accent);
 		color: var(--color-text-light);
-	}
-	&__link {
 	}
 	&__text-rus {
 		&::after {
@@ -219,7 +217,7 @@
 	}
 	&:nth-child(9) {
 		display: none;
-		&.dish-card__img-container {
+		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-9.png);
 		}
 		& .dish-card__label-new {
@@ -253,7 +251,6 @@
 			display: none;
 		}
 	}
-
 	&__img-link {
 		position: relative;
 	}
@@ -353,11 +350,9 @@
 	&__weight {
 		font-size: 14px;
 		margin-top: 0;
-		margin-bottom: 29px;
 	}
 	&__price-block {
 		font-size: 20px;
-		// margin-bottom: 14px;
 		display: flex;
 		column-gap: 20px;
 	}
@@ -383,8 +378,11 @@
 		height: 51px;
 	}
 	&__minus {
+		width: 100%;
+		height: 100%;
+	}
+	&__minus-icon {
 		margin-left: 16px;
-		justify-self: start;
 		width: 9px;
 		height: 3px;
 		background-color: var(--color-text-dark);
@@ -400,12 +398,12 @@
 		text-align: center;
 		@extend %font-Gilroy-700;
 	}
-	&__plus {
+	&__plus-icon {
 		width: 9px;
 		height: 9px;
 		background-color: var(--color-text-dark);
 		margin-right: 16px;
-		justify-self: end;
+		margin-left: auto;
 		clip-path: polygon(
 			3px 3px,
 			3px 0,
@@ -420,6 +418,10 @@
 			0 6px,
 			0 3px
 		);
+	}
+	&__plus {
+		width: 100%;
+		height: 100%;
 	}
 	&__add-to-cart-btn {
 		background-color: var(--color-accent);
