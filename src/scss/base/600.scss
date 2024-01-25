@@ -218,8 +218,10 @@
 		&__card-list {
 			display: grid;
 			grid-template-columns: repeat(2, 1fr);
+			// grid-template-rows: repeat(3, 1fr);
 			gap: 17px 20px;
-			margin-bottom: 42px;
+			margin-bottom: 50px;
+			margin-top: 42px;
 		}
 		&__see-all-btn {
 			grid-template-columns: 4fr 1px 6fr;
@@ -264,8 +266,6 @@
 		}
 	}
 	.dish-card {
-		margin-top: 42px;
-		padding-bottom: 14px;
 		&:nth-child(1) {
 			& .dish-card__img-container {
 				background-image: url(../img/main/menu/dish-1.png);
@@ -468,11 +468,10 @@
 		}
 		&__weight {
 			font-size: 14px;
-			margin-bottom: 29px;
+			margin-bottom: auto;
 		}
 		&__price-block {
 			font-size: 20px;
-			margin-bottom: 14px;
 			display: flex;
 			column-gap: 20px;
 		}
