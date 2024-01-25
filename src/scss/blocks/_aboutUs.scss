@@ -68,22 +68,42 @@
 		background-color: var(--color-bg);
 		color: var(--color-text-dark);
 		border-radius: 8px;
-		letter-spacing: 0.25px;
+		letter-spacing: 0.24px;
 		font-size: 12px;
 		text-transform: uppercase;
+		font-weight: 500;
 	}
 	&__switcher-btn--active {
 		background-color: var(--color-accent);
 		color: var(--color-text-light);
 	}
 	&__booking-link {
+		background-color: var(--color-accent);
+		width: 340px;
+		height: 76px;
+		display: grid;
+		grid-template-columns: 6fr 1px 4fr;
+		border-radius: 10px;
+		place-items: center;
 	}
 	&__booking-text-rus {
+		max-width: 140px;
+		letter-spacing: 0.32px;
+		text-align: right;
 	}
 	&__booking-text {
+		text-transform: uppercase;
+		color: var(--color-text-light);
 	}
 	&__booking-separator {
+		background-color: var(--color-btn-separator);
+		width: 1px;
+		height: 63px;
+		margin-top: 7px;
+		margin-bottom: 7px;
 	}
 	&__booking-text-chi {
+		font-size: 20px;
+		@extend %font-Microsoft-Jhenghei-700;
 	}
 }
