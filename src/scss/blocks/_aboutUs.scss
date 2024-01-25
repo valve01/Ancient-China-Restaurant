@@ -1,0 +1,89 @@
+.aboutUs {
+	&__inner {
+		padding-top: 35px;
+	}
+	&__title-container {
+		position: relative;
+		display: grid;
+		justify-items: center;
+		text-align: center;
+		margin-right: -10px;
+		margin-left: -10px;
+		margin-bottom: 34px;
+		&:before {
+			content: '';
+			position: absolute;
+			display: block;
+			top: 18px;
+			width: 100%;
+			height: 1px;
+			background-color: var(--color-stroke-medium);
+		}
+		&::after {
+			content: '';
+			display: block;
+			height: 75px;
+		}
+	}
+	&__title {
+		position: absolute;
+	}
+	&__title-rus {
+	}
+	&__title-chi {
+	}
+	&__descr {
+		text-align: center;
+		color: var(--color-text-dark);
+		margin-bottom: 77px;
+	}
+	&__rus-container {
+		margin-bottom: 28px;
+		font-size: 14px;
+	}
+	&__rus-text-1 {
+		margin-bottom: 22px;
+	}
+	&__rus-text-2 {
+	}
+	&__chi-text {
+		@extend %font-Microsoft-Jhenghei-400;
+	}
+	&__slider-container {
+		min-height: 768px;
+		min-width: 340px;
+	}
+	&__switcher-slider-block {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		width: 269px;
+		height: 46px;
+		margin: 0 auto;
+	}
+	&__inside-btn {
+	}
+	&__outside-btn {
+	}
+	&__switcher-btn {
+		background-color: var(--color-bg);
+		color: var(--color-text-dark);
+		border-radius: 8px;
+		letter-spacing: 0.25px;
+		font-size: 12px;
+		text-transform: uppercase;
+	}
+	&__switcher-btn--active {
+		background-color: var(--color-accent);
+		color: var(--color-text-light);
+	}
+	&__booking-link {
+	}
+	&__booking-text-rus {
+	}
+	&__booking-text {
+	}
+	&__booking-separator {
+	}
+	&__booking-text-chi {
+	}
+}
