@@ -90,7 +90,7 @@
 		overflow: hidden;
 		padding: 5px;
 		border-radius: 25px 0 0 25px;
-		
+
 		&::after {
 			content: '';
 			top: 0;
@@ -353,7 +353,6 @@
 	&__weight {
 		font-size: 14px;
 		margin-top: 0;
-
 		margin-bottom: 29px;
 	}
 	&__price-block {
@@ -391,6 +390,12 @@
 		background-color: var(--color-text-dark);
 	}
 	&__counter {
+		-moz-appearance: textfield;
+		&::-webkit-outer-spin-button,
+		&::-webkit-inner-spin-button {
+			-webkit-appearance: none;
+			margin: 0;
+		}
 		width: 60px;
 		text-align: center;
 		@extend %font-Gilroy-700;
