@@ -1,8 +1,9 @@
 .aboutUs {
 }
-.aboutUs__slider-outside {height: 398px;
+.aboutUs__slider-outside {
+	height: 398px;
 	&-container {
-		display: none;
+// position: absolute;
 	}
 	margin-bottom: 104px;
 	& .aboutUs {
@@ -10,14 +11,14 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center;
-			min-height: 398px;
+			height: 398px;
 			border-radius: 10px;
 		}
 		&__slider-text-block {
 			color: var(--color-text-light);
 			text-transform: uppercase;
 			margin-left: 20px;
-			margin-top: calc(100% - 13px);
+			margin-top: 334px;
 		}
 		&__slider-text-main {
 			@extend %font-Oranienbaum-400;
@@ -56,7 +57,7 @@
 			background-size: cover;
 			background-position: center;
 			width: 165px;
-			min-height: 130px;
+			height: 130px;
 			border-radius: 10px;
 			gap: 5px;
 		}
