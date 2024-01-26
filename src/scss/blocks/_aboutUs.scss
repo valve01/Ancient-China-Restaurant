@@ -52,13 +52,20 @@
 	&__slider-container {
 		min-height: 768px;
 		min-width: 340px;
+		position: relative;
 	}
 	&__switcher-slider-block {
+		position: absolute;
+		left: calc(50% - 135px);
+		top: 20px;
+		margin: 0 auto;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		width: 269px;
 		height: 46px;
 		margin: 0 auto;
+		background-color: var(--color-bg);
+		border-radius: 8px;
 	}
 	&__inside-btn {
 	}
@@ -78,6 +85,9 @@
 		color: var(--color-text-light);
 	}
 	&__booking-link {
+		top: 412px;
+		right: calc(50% - 170px);
+		position: absolute;
 		background-color: var(--color-accent);
 		width: 340px;
 		height: 76px;

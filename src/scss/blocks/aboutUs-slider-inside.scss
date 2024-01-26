@@ -1,6 +1,7 @@
 .aboutUs {
 }
 .aboutUs__slider-inside {
+
 	margin-bottom: 104px;
 	& .aboutUs {
 		&__slide {
@@ -34,20 +35,27 @@
 		}
 	}
 }
-
+.aboutUs__slider-inside-mini .slick-slide {
+	margin: 0 5px;
+}
+.slick-track {
+}
 .aboutUs__slider-inside-mini {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, 1fr);
-	gap: 3px 10px;
+	margin-left: -5px;
+	margin-right: -5px;
+	// display: grid;
+	// grid-template-columns: repeat(2, 1fr);
+	// grid-template-rows: repeat(2, 1fr);
+	// gap: 3px 10px;
 	& .aboutUs {
 		&__mini-slide {
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center;
-			min-width:  165px;
+			width: 165px;
 			min-height: 130px;
 			border-radius: 10px;
+			gap: 5px;
 		}
 		&__mini-slide-1 {
 			background-image: url(../img/main/about/zal1-lg.webp);
