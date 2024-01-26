@@ -54,6 +54,9 @@
 		min-width: 340px;
 		position: relative;
 	}
+	&__inside-outside-container{
+// display: flex;
+	}
 	&__switcher-slider-block {
 		position: absolute;
 		left: calc(50% - 135px);

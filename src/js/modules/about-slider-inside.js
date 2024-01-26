@@ -30,7 +30,7 @@ $('.aboutUs__slider-inside').slick({
 });
 
 $('.aboutUs__slider-inside-mini').slick({
-	infinite: true,
+	// infinite: true,
 	slidesToShow: 4,
 	slidesToScroll: 2,
 	asNavFor: '.aboutUs__slider-inside',

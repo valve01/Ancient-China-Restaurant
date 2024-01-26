@@ -30,10 +30,38 @@ $('.aboutUs__slider-outside').slick({
 });
 
 $('.aboutUs__slider-outside-mini').slick({
-	infinite: true,
+	// infinite: true,
 	slidesToShow: 3,
 	slidesToScroll:2,
 	asNavFor: '.aboutUs__slider-outside',
 	focusOnSelect: true,
 	arrows: false,
+	mobileFirst: true,
+	responsive: [
+		{
+			breakpoint: 0,
+			settings: {
+				arrows: false,
+				slidesToShow: 3,
+			},
+		},
+		{
+			breakpoint: 360,
+			settings: {
+				arrows: false,
+				slidesToShow: 3,
+			},
+		},
+		{
+			breakpoint: 600,
+			settings: {
+				arrows: false,
+				slidesToShow: 3,
+			},
+		},
+		{
+			breakpoint: 1024,
+			settings: {},
+		},
+	],
 });

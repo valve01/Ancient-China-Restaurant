@@ -9,15 +9,15 @@ function sliderSwitcher() {
 		// outsideSlider.classList.add('none');
 	
 	insideBtnEl.addEventListener('click', () => {
-		outsideSlider.classList.add('visually-hidden');
+		outsideSlider.classList.add('none');
 		// outsideSliderMini.classList.add('visually-hidden');
-		insideSlider.classList.remove('visually-hidden');
+		insideSlider.classList.remove('none');
 
 	});
 
 	outsideBtnEl.addEventListener('click', () => {
-		insideSlider.classList.add('visually-hidden');
-		outsideSlider.classList.remove('visually-hidden');
+		insideSlider.classList.add('none');
+		outsideSlider.classList.remove('none');
 		// outsideSliderMini.classList.remove('visually-hidden');
 	});
 }
