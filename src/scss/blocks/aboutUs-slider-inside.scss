@@ -1,37 +1,69 @@
-.aboutUs{
-
+.aboutUs {
 }
-.aboutUs__slider-inside{
+.aboutUs__slider-inside {
+	margin-bottom: 104px;
 	& .aboutUs {
 		&__slide {
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			min-height: 398px;
+			border-radius: 10px;
 		}
 		&__slider-text-block {
+			color: var(--color-text-light);
 		}
 		&__slider-text-main {
 		}
 		&__slider-text-chi {
 		}
 		&__slide-1 {
+			background-image: url(../img/main/about/zal1-lg.webp);
 		}
 		&__slide-2 {
+			background-image: url(../img/main/about/zal2-lg.webp);
 		}
 		&__slide-3 {
+			background-image: url(../img/main/about/zal3-lg.webp);
 		}
 		&__slide-4 {
+			background-image: url(../img/main/about/vip-lg.webp);
 		}
-		&__slider-inside-mini {
-		}
-		&__mini-slide {
-		}
-		&__mini-slide-1 {
-		}
-		&__mini-slide-2 {
-		}
-		&__mini-slide-3 {
-		}
-		&__mini-slide-4 {
+		&__slide-5 {
+			background-image: url(../img/main/about/bar-lg.webp);
 		}
 	}
-	
 }
 
+.aboutUs__slider-inside-mini {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 3px 10px;
+	& .aboutUs {
+		&__mini-slide {
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			min-width:  165px;
+			min-height: 130px;
+			border-radius: 10px;
+		}
+		&__mini-slide-1 {
+			background-image: url(../img/main/about/zal1-lg.webp);
+		}
+		&__mini-slide-2 {
+			background-image: url(../img/main/about/zal2-lg.webp);
+		}
+		&__mini-slide-3 {
+			background-image: url(../img/main/about/zal3-lg.webp);
+		}
+		&__mini-slide-4 {
+			background-image: url(../img/main/about/vip-lg.webp);
+		}
+		&__mini-slide-5 {
+			grid-column: 1/3;
+			background-image: url(../img/main/about/bar-lg.webp);
+		}
+	}
+}
