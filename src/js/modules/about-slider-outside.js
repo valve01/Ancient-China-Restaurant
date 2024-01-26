@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import 'slick-slider';
 
-$('.aboutUs__slider-inside').slick({
+$('.aboutUs__slider-outside').slick({
 	dots: true,
 	infinite: true,
 	speed: 300,
@@ -29,11 +29,11 @@ $('.aboutUs__slider-inside').slick({
 	],
 });
 
-$('.aboutUs__slider-inside-mini').slick({
+$('.aboutUs__slider-outside-mini').slick({
 	infinite: true,
 	slidesToShow: 3,
 	slidesToScroll:2,
-	asNavFor: '.aboutUs__slider-inside',
+	asNavFor: '.aboutUs__slider-outside',
 	focusOnSelect: true,
 	arrows: false,
 });
