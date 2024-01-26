@@ -3,7 +3,11 @@
 .aboutUs__slider-outside {
 	height: 398px;
 	&-container {
-// position: absolute;
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+margin-top: -636px;
+// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+position: relative;
+transition: all 0.5s;
 	}
 	margin-bottom: 104px;
 	& .aboutUs {

@@ -4,21 +4,22 @@ function sliderSwitcher() {
 
 	const insideSlider = document.querySelector('.aboutUs__slider-inside-container');
 	const outsideSlider = document.querySelector('.aboutUs__slider-outside-container');
-	// const outsideSliderMini = document.querySelector('.aboutUs__slider-outside-mini');
 
-		// outsideSlider.classList.add('none');
-	
+
+
+
 	insideBtnEl.addEventListener('click', () => {
-		outsideSlider.classList.add('none');
-		// outsideSliderMini.classList.add('visually-hidden');
-		insideSlider.classList.remove('none');
-
+		outsideSlider.classList.add('aboutUs-slider-hidden');
+		insideSlider.classList.remove('aboutUs-slider-hidden');
+		outsideBtnEl.classList.remove('aboutUs__switcher-btn--active')
+		insideBtnEl.classList.add('aboutUs__switcher-btn--active')
 	});
 
 	outsideBtnEl.addEventListener('click', () => {
-		insideSlider.classList.add('none');
-		outsideSlider.classList.remove('none');
-		// outsideSliderMini.classList.remove('visually-hidden');
+		insideSlider.classList.add('aboutUs-slider-hidden');
+		outsideSlider.classList.remove('aboutUs-slider-hidden');
+		insideBtnEl.classList.remove('aboutUs__switcher-btn--active')
+		outsideBtnEl.classList.add('aboutUs__switcher-btn--active')
 	});
 }
 export default sliderSwitcher;
