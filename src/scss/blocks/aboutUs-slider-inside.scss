@@ -1,8 +1,8 @@
 .aboutUs {
 }
-.aboutUs__slider-inside {
+.aboutUs__slider-inside {height: 398px;
 	&-container {
-		display: none;
+		// display: none;
 	}
 	margin-bottom: 104px;
 	& .aboutUs {
@@ -10,15 +10,17 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-position: center;
-			min-height: 398px;
+			height: 398px;
 			border-radius: 10px;
-			background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
 		}
 		&__slider-text-block {
+
 			color: var(--color-text-light);
 			text-transform: uppercase;
+
 			margin-left: 20px;
-			margin-top: calc(100% - 13px);
+			margin-top: 334px ;
+	
 		}
 		&__slider-text-main {
 			@extend %font-Oranienbaum-400;
@@ -30,8 +32,8 @@
 			letter-spacing: 0.86px;
 			font-size: 20px;
 		}
-		&__slide-1 {
-			background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),
+		&__slide-1 { 
+			background-image:  linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%),
 				url(../img/main/about/zal1-lg.webp);
 		}
 		&__slide-2 {
@@ -65,7 +67,7 @@
 			background-size: cover;
 			background-position: center;
 			width: 165px;
-			min-height: 130px;
+			height: 130px;
 			border-radius: 10px;
 			gap: 5px;
 		}
@@ -82,7 +84,6 @@
 			background-image: url(../img/main/about/vip-lg.webp);
 		}
 		&__mini-slide-5 {
-			grid-column: 1/3;
 			background-image: url(../img/main/about/bar-lg.webp);
 		}
 	}
