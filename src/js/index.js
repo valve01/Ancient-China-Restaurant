@@ -5,3 +5,4 @@ aboutSliderSwitcher()
 import './modules/header-slider';
 import './modules/about-slider-inside';
 import './modules/about-slider-outside';
+import './modules/reviews-slider';
