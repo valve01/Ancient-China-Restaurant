@@ -1,5 +1,6 @@
 .reviews {
 	&__inner {
+		padding-bottom: 85px;
 	}
 	&__title-container {
 		position: relative;
@@ -8,7 +9,7 @@
 		text-align: center;
 		margin-right: -10px;
 		margin-left: -10px;
-		margin-bottom: 34px;
+		margin-bottom: 21px;
 		&:before {
 			content: '';
 			position: absolute;
@@ -24,11 +25,11 @@
 			height: 75px;
 		}
 	}
-	&__title {position: absolute;
+	&__title {
+		position: absolute;
 	}
 	&__title-rus {
 	}
 	&__title-chi {
 	}
 }
-

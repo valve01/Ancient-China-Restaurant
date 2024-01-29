@@ -1,0 +1,13 @@
+// Mobile first
+@media (min-width: 900px) {
+	.section-menu {
+		&__card-list {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+}
+
+// Desktop first
+// @media (max-width: 900px) {
+
+// }

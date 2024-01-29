@@ -97,6 +97,7 @@
 		}
 	}
 	&__item {
+
 		display: flex;
 		flex-shrink: 0;
 		padding: 9px 19px;
@@ -128,6 +129,8 @@
 	border-radius: 10px;
 	padding-bottom: 18px;
 	height: 517px;
+	max-width: 370px;
+	margin: 0 auto;
 	&:nth-child(1) {
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-1.png);

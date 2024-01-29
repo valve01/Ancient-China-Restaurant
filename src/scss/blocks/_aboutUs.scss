@@ -50,12 +50,13 @@
 		@extend %font-Microsoft-Jhenghei-400;
 	}
 	&__slider-container {
-		height: 768px;
+		height: 632px;
 		min-width: 340px;
 		position: relative;
+		margin-bottom: 37px;
 	}
 	&__inside-outside-container{
-// display: flex;
+
 	}
 	&__switcher-slider-block {
 		position: absolute;
