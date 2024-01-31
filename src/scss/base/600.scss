@@ -235,4 +235,44 @@
 		width: 35px;
 		height: 35px;
 	}
+	// Footer==============================================================
+	.footer {
+		&__inner {
+			padding: 37px 0 28px;
+		}
+		&__main-block {
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(3, min-content);
+		}
+		&__logo-link {
+			grid-column: 1/2;
+			justify-self: start;
+		}
+		&__logo-img {
+			height: 102px;
+			width: 102px;
+		}
+		&__menu-list {
+			grid-column: 2/4;
+		}
+		&__contact-block {
+			grid-column: 1/4;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 6px 13px;
+		}
+		&__contact {
+			grid-row: 2/3;
+			grid-column: 2/4;
+			justify-content: start;
+		}
+		&__adress {
+			grid-column: 2/4;
+			grid-row: 1/2;
+			justify-content: start;
+		}
+		&__rating {
+			grid-column: 1/2;
+			justify-self: start;
+		}
+	}
 }
