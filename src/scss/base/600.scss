@@ -130,7 +130,7 @@
 			gap: 11px 27px;
 		}
 		&__item {
-			width: 90%;
+			max-width: 410px;
 			grid-template-columns: 100px 1fr;
 			border-radius: 10px;
 			justify-self: end;
