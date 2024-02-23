@@ -5,6 +5,16 @@
 			grid-template-columns: repeat(4, 1fr);
 		}
 	}
+	.reviews{
+		&__slider{
+			margin-right: -10px;
+			margin-left: -10px;
+		}
+	}
+	.reviews__slider-list .slick-slide {
+		margin-right: 10px;
+		margin-left: 10px;
+	}
 }
 
 // Desktop first

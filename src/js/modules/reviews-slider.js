@@ -10,10 +10,11 @@ $('.reviews__slider-list').slick({
 	prevArrow: '<button type="button" class="header__slider-prev header__slider-arrows"></button>',
 	nextArrow: '<button type="button" class="header__slider-next header__slider-arrows"></button>',
 	adaptiveHeight: true,
+	mobileFirst: true,
 	responsive: [
 		{
-			breakpoint: 1024,
-			settings: {},
+			breakpoint: 1200,
+			settings: { slidesToShow: 2 },
 		},
 		{
 			breakpoint: 600,
