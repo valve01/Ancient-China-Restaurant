@@ -9,6 +9,9 @@
 		--container-width: 600px;
 		--container-padding: 20px;
 	}
+	.title-rus {
+		font-size: 56px;
+	}
 	.header {
 		&__slide {
 			min-height: 683px;
@@ -235,11 +238,43 @@
 		width: 35px;
 		height: 35px;
 	}
+	// About===============================================================
+	.aboutUs {
+		&__title-container {
+			margin-right: -20px;
+			margin-left: -20px;
+			margin-bottom: 18px;
+			&:before {
+				top: 32px;
+				height: 2px;
+			}
+			&::after {
+				height: 116px;
+			}
+		}
+	}
+	// Reviews=============================================================
+	.reviews {
+		&__title-container {
+			margin-right: -20px;
+			margin-left: -20px;
+			margin-bottom: 18px;
+			&:before {
+				top: 32px;
+				height: 2px;
+			}
+			&::after {
+				height: 116px;
+			}
+		}
+	}
 	// Footer==============================================================
+
 	.footer {
 		&__inner {
 			padding: 37px 0 28px;
 		}
+
 		&__main-block {
 			grid-template-columns: repeat(3, 1fr);
 			grid-template-rows: repeat(3, min-content);
