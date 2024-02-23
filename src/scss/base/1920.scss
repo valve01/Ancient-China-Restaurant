@@ -1,7 +1,7 @@
 //Mobile first
 @media (min-width: 1920px) {
 	:root {
-		--container-width: 1920px;
+		--container-width: 1903px;
 		--container-padding: 24px;
 	}
 	.header {
@@ -177,12 +177,12 @@
 			column-gap: 14px;
 		}
 		&__item {
-			width: 457px;
+			max-width: 457px;
 			grid-template-columns: 130px 1fr;
 		}
 		&__text {
 			justify-self: start;
-			padding: 23px 24px 23px 0;
+			padding: 23px 20px 23px 0;
 		}
 		&__text-rus {
 			font-size: 18px;
