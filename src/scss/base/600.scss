@@ -252,6 +252,15 @@
 				height: 116px;
 			}
 		}
+		&__slider-inside{
+			height: 955px;
+		}
+		&__slider-outside{
+			height: 955px;
+			&-container{
+				margin-top: -1193px;
+			}
+		}
 		&__rus-container {
 			font-size: 18px;
 		}
@@ -259,9 +268,16 @@
 			font-size: 24px;
 		}
 	}
+	.aboutUs__slider-inside .aboutUs__slide {
+		height: 955px;
+	}
+	.aboutUs__slider-outside .aboutUs__slide {
+		height: 955px;
+	}
 	// Reviews=============================================================
 	.reviews {
 		&__title-container {
+			margin-top: 600px;
 			margin-right: -20px;
 			margin-left: -20px;
 			margin-bottom: 18px;
