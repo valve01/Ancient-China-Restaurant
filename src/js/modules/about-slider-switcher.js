@@ -5,10 +5,12 @@ function sliderSwitcher() {
 	const insideSlider = document.querySelector('.aboutUs__slider-inside-container');
 	const outsideSlider = document.querySelector('.aboutUs__slider-outside-container');
 
-
+	// var successBool = window.navigator.vibrate(1000);
 
 
 	insideBtnEl.addEventListener('click', () => {
+		// successBool();
+		navigator.vibrate(1000)
 		outsideSlider.classList.add('aboutUs-slider-hidden');
 		insideSlider.classList.remove('aboutUs-slider-hidden');
 		outsideBtnEl.classList.remove('aboutUs__switcher-btn--active')
