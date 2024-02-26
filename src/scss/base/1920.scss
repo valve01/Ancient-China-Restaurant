@@ -225,6 +225,27 @@
 			column-gap: 6px;
 		}
 	}
+
+	.aboutUs{
+		&__slider-outside {
+
+			&-container {
+				margin-top: -1367px;
+			}
+		}
+	}
+
+	.aboutUs__slider-inside-mini .aboutUs__mini-slide {
+		height: 398px;
+	}
+	.aboutUs__slider-outside-mini .aboutUs__mini-slide {
+		height: 398px;
+	}
+	.reviews {
+		&__title-container {
+			margin-top: 800px;
+		}
+	}
 }
 
 // Desktop first

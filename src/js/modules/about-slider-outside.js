@@ -39,29 +39,11 @@ $('.aboutUs__slider-outside-mini').slick({
 	mobileFirst: true,
 	responsive: [
 		{
-			breakpoint: 0,
+			breakpoint: 599,
 			settings: {
 				arrows: false,
 				slidesToShow: 3,
 			},
-		},
-		{
-			breakpoint: 360,
-			settings: {
-				arrows: false,
-				slidesToShow: 3,
-			},
-		},
-		{
-			breakpoint: 600,
-			settings: {
-				arrows: false,
-				slidesToShow: 3,
-			},
-		},
-		{
-			breakpoint: 1024,
-			settings: {},
 		},
 	],
 });

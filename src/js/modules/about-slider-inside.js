@@ -31,37 +31,21 @@ $('.aboutUs__slider-inside').slick({
 
 $('.aboutUs__slider-inside-mini').slick({
 	// infinite: true,
-	slidesToShow: 4,
+	slidesToShow: 3,
 	slidesToScroll: 2,
 	asNavFor: '.aboutUs__slider-inside',
 	focusOnSelect: true,
 	arrows: false,
 	mobileFirst: true,
 	responsive: [
+
 		{
-			breakpoint: 0,
-			settings: {
-				arrows: false,
-				slidesToShow: 3,
-			},
-		},
-		{
-			breakpoint: 360,
-			settings: {
-				arrows: false,
-				slidesToShow: 3,
-			},
-		},
-		{
-			breakpoint: 600,
+			breakpoint: 599,
 			settings: {
 				arrows: false,
 				slidesToShow: 4,
 			},
 		},
-		{
-			breakpoint: 1024,
-			settings: {},
-		},
+
 	],
 });

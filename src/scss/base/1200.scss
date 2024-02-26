@@ -5,6 +5,14 @@
 			grid-template-columns: repeat(4, 1fr);
 		}
 	}
+	.aboutUs{
+		&__descr{
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			column-gap: 30px;
+		}
+	}
+
 	.reviews {
 		&__slider {
 			margin-right: -10px;

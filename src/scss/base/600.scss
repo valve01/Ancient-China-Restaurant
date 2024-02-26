@@ -252,13 +252,18 @@
 				height: 116px;
 			}
 		}
-		&__slider-inside{
+		&__slider-inside {
 			height: 955px;
+			margin-bottom: 10px;
 		}
-		&__slider-outside{
+		&__booking-link {
+			top: 794px;
+		}
+		&__slider-outside {
 			height: 955px;
-			&-container{
-				margin-top: -1193px;
+			margin-bottom: 10px;
+			&-container {
+				margin-top: -1099px;
 			}
 		}
 		&__rus-container {
@@ -267,6 +272,9 @@
 		&__chi-text {
 			font-size: 24px;
 		}
+		&__switcher-slider-block {
+			top: 49px;
+		}
 	}
 	.aboutUs__slider-inside .aboutUs__slide {
 		height: 955px;
@@ -274,10 +282,31 @@
 	.aboutUs__slider-outside .aboutUs__slide {
 		height: 955px;
 	}
+	.aboutUs__slider-inside-mini .slick-slide {
+		margin-left: 7px;
+		margin-right: 7px;
+	}
+	.aboutUs__slider-inside .aboutUs__slider-text-block,
+	.aboutUs__slider-outside .aboutUs__slider-text-block {
+		text-align: center;
+		margin-top: 688px;
+		margin-left: 0;
+	}
+	.aboutUs__slider-inside .aboutUs__slider-text-main,
+	.aboutUs__slider-outside .aboutUs__slider-text-main {
+		font-size: 40px;
+		letter-spacing: 0.04em;
+	}
+	.aboutUs__slider-inside .aboutUs__slider-text-chi,
+	.aboutUs__slider-outside .aboutUs__slider-text-chi {
+		font-size: 40px;
+		letter-spacing: 0.02em;
+	}
+
 	// Reviews=============================================================
 	.reviews {
 		&__title-container {
-			margin-top: 600px;
+			margin-top: 560px;
 			margin-right: -20px;
 			margin-left: -20px;
 			margin-bottom: 18px;
