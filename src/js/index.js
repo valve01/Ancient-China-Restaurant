@@ -5,6 +5,7 @@ import './modules/header-slider';
 import './modules/about-slider-inside';
 import './modules/about-slider-outside';
 import './modules/reviews-slider';
+import './modules/goup';
 // import './modules/vibrate';
 
 // mobileNav();
