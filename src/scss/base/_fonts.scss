@@ -3,21 +3,26 @@
 	src: url('../fonts/gilroy-lightitalic.woff2') format('woff2'),
 		url('../fonts/gilroy-lightitalic.woff') format('woff'),
 		url('../fonts/gilroy-lightitalic.ttf') format('ttf');
+		font-weight: 300;
+
 }
 @font-face {
 	font-family: 'Gilroy';
 	src: url('../fonts/gilroy-regular.woff2') format('woff2'),
 		url('../fonts/gilroy-regular.woff') format('woff'), url('../fonts/gilroy-regular.ttf') format('ttf');
+		font-weight: 400;
 }
 @font-face {
 	font-family: 'Gilroy';
 	src: url('../fonts/gilroy-medium.woff2') format('woff2'),
 		url('../fonts/gilroy-medium.woff') format('woff'), url('../fonts/gilroy-medium.ttf') format('ttf');
+		font-weight: 500;
 }
 @font-face {
 	font-family: 'Gilroy';
 	src: url('../fonts/gilroy-bold.woff2') format('woff2'),
 		url('../fonts/gilroy-bold.woff') format('woff'), url('../fonts/gilroy-bold.ttf') format('ttf');
+		font-weight: 700;
 }
 @font-face {
 	font-family: 'Microsoft Jhenghei';
