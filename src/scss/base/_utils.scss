@@ -44,3 +44,23 @@
 }
 .subtitle {
 }
+.big_button{
+	transition: all 0.2s ease-in-out;
+	&:hover{
+		scale: 1.1;
+	}
+}
+.small_button{
+	transition: all 0.2s ease-in-out;
+	&:hover{
+		translate: 0px -3px;
+	}
+}
+.red-shine{
+	transition: all 0.2s ease-in-out;
+	&:hover{
+		filter: drop-shadow(0 0 7px var(--color-accent));
+	}
+	
+	
+}

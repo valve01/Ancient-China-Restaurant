@@ -99,10 +99,18 @@
 		flex-shrink: 0;
 		padding: 9px 19px;
 		border-radius: 20px;
-	}
+		transition: all 0.2s ease-in-out;
+		&:hover{
+			background-color: #eeeeee;
+		}
+		}
+	
 	&__item--active {
 		background-color: var(--color-accent);
 		color: var(--color-text-light);
+		&:hover{
+			background-color: var(--color-accent);
+		}
 	}
 	&__text-rus {
 		&::after {
