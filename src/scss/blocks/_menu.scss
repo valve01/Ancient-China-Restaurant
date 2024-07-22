@@ -197,28 +197,28 @@
 		}
 	}
 	&:nth-child(7) {
-		display: none;
+		// display: none;
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-7.png);
 		}
-		& .dish-card__label-new {
-			display: none;
-		}
+		// & .dish-card__label-new {
+		// 	display: none;
+		// }
 		& .dish-card__label-sale {
 			display: none;
 		}
 	}
 	&:nth-child(8) {
-		display: none;
+		// display: none;
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-8.png);
 		}
-		& .dish-card__label-new {
-			display: none;
-		}
+		// & .dish-card__label-new {
+		// 	display: none;
+		// }
 	}
 	&:nth-child(9) {
-		display: none;
+		// display: none;
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-9.png);
 		}
@@ -227,7 +227,7 @@
 		}
 	}
 	&:nth-child(10) {
-		display: none;
+		// display: none;
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-10.png);
 		}
@@ -239,13 +239,13 @@
 		}
 	}
 	&:nth-child(11) {
-		display: none;
+		// display: none;
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-11.png);
 		}
 	}
 	&:nth-child(12) {
-		display: none;
+		// display: none;
 		& .dish-card__img-container {
 			background-image: url(../img/main/menu/dish-12.png);
 		}
