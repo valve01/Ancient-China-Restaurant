@@ -255,6 +255,8 @@
 	}
 	&__img-link {
 		position: relative;
+		overflow: hidden;
+		border-radius: 8px;
 	}
 	&__img-container {
 		min-height: 236px;
@@ -265,8 +267,13 @@
 		margin-top: -1px;
 		background-repeat: no-repeat;
 		background-position: center;
-		border-radius: 10px;
+		border-radius: 8px;
 		border-bottom: 1px solid var(--color-stroke-medium);
+		transition: scale 0.2s ease-in-out;
+		
+		&:hover{
+			scale: 1.05;
+		}
 	}
 	&__labels {
 		display: flex;

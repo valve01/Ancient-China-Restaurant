@@ -66,6 +66,15 @@
 			top: 496px;
 			left: calc(50% - 280px);
 		}
+		&__to-index {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			column-gap: 21px;
+			position: absolute;
+			top: 496px;
+			// left: calc(50% - 280px);
+		}
 		&__booking-link {
 			width: 270px;
 			height: 76px;

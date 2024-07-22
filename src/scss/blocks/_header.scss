@@ -75,6 +75,14 @@
 		top: 316px;
 		left: calc(50% - 111px);
 	}
+	&__to-index {
+		display: flex;
+		flex-direction: column;
+		row-gap: 7px;
+		position: absolute;
+		top: 316px;
+		left: calc(50% - 111px);
+	}
 	&__booking {
 		color: var(--color-text-light);
 	}
