@@ -1,75 +1,156 @@
+// .mobile-nav {
+// 	&__menu {
+// 		&:has(.mobile-nav--active) {
+// 			transition: 0.7s;
+// 			position: absolute;
+// 			background-color: rgba($color: #1b1b1b, $alpha: 0.5);
+// 			width: 100vw;
+// 			height: 100vh;
+// 		}
+// 	}
+// 	&__wrapper {
+// 		background-color: #fff;
+// 		margin: 0 auto;
+// 		left: 0;
+// 		right: 0;
+// 		top: -100%;
+// 		position: absolute;
+// 		width: 360px;
+// 		text-align: center;
+// 		transition: 0.7s;
+// 	}
+
+// 	&__top {
+// 		padding: 20px;
+// 		display: flex;
+// 		flex-direction: row-reverse;
+// 	}
+// 	&__close-btn {
+// 	}
+// 	&__list {
+// 		font-size: 24px;
+// 		line-height: normal;
+// 	}
+// 	&__item {
+// 		margin-bottom: 30px;
+// 	}
+// 	&__link {
+// 		color: #000;
+// 	}
+// 	&__list-addi {
+
+// 		font-size: 14px;
+// 	}
+// 	&__item-addi {
+// 		margin-bottom: 35px;
+// 	}
+// 	&__link-addi {
+// 		color: #000;
+// 	}
+// 	&__icons {
+// 		background-color: var(--color-descr);
+// 		display: flex;
+// 		padding: 20px 80px;
+// 		justify-content: space-between;
+// 	}
+// 	&__search-link {
+// 	}
+// 	&__tools {
+// 	}
+// 	&__cart-link {
+// 	}
+// 	&__user-link {
+// 	}
+// }
+// body:has(.mobile-nav--active) {
+// 	overflow-y: hidden;
+// }
+// .mobile-nav__wrapper.mobile-nav--active {
+// 	top: 0;
+// }
+// .svg-icons--cross-dims {
+// 	height: 20px;
+// 	width: 20px;
+// }
 
 .mobile-nav {
-	&__menu {
-		&:has(.mobile-nav--active) {
-			transition: 0.7s;
-			position: absolute;
-			background-color: rgba($color: #1b1b1b, $alpha: 0.5);
-			width: 100vw;
-			height: 100vh;
-		}
+	z-index: 1;
+	display: flex;
+	transition: 0.7s;
+	position: absolute;
+	background-color: rgba($color: #1b1b1b, $alpha: 0.96);
+	width: 100vw;
+	height: 100vh;
+	&__inner {
 	}
-	&__wrapper {
-		background-color: #fff;
-		margin: 0 auto;
-		left: 0;
-		right: 0;
-		top: -100%;
-		position: absolute;
-		width: 360px;
-		text-align: center;
-		transition: 0.7s;
+	&__close {
 	}
-
-	&__top {
-		padding: 20px;
-		display: flex;
-		flex-direction: row-reverse;
+	&__close-icon {
 	}
-	&__close-btn {
+	&__main {
 	}
+	&__head {
+	}
+}
+.logo {
+}
+.logo-img {
+}
+.mobile-menu {
 	&__list {
-		font-size: 24px;
-		line-height: normal;
 	}
 	&__item {
-		margin-bottom: 30px;
 	}
 	&__link {
-		color: #000;
 	}
-	&__list-addi {
-
-		font-size: 14px;
+	&__text-rus {
 	}
-	&__item-addi {
-		margin-bottom: 35px;
-	}
-	&__link-addi {
-		color: #000;
-	}
-	&__icons {
-		background-color: var(--color-descr);
-		display: flex;
-		padding: 20px 80px;
-		justify-content: space-between;
-	}
-	&__search-link {
-	}
-	&__tools {
-	}
-	&__cart-link {
-	}
-	&__user-link {
+	&__text-chi {
 	}
 }
-body:has(.mobile-nav--active) {
-	overflow-y: hidden;
+.mobive-nav {
+	&__footer {
+	}
+	&__point-info {
+	}
+	&__point-work-time {
+	}
+	&__point-work-time-text {
+	}
+	&__point-adress {
+	}
+	&__point-adress-text {
+	}
+	&__phone {
+	}
+	&__phone-text {
+	}
 }
-.mobile-nav__wrapper.mobile-nav--active {
-	top: 0;
+.svg-header--time-dims {
 }
-.svg-icons--cross-dims {
-	height: 20px;
-	width: 20px;
+.svg-footer--map-dims {
+}
+.svg-header--phone-dims {
+}
+.header {
+	&__booking {
+	}
+	&__booking-link {
+	}
+	&__booking-text-rus {
+	}
+	&__booking-text {
+	}
+	&__booking-separator {
+	}
+	&__booking-text-chi {
+	}
+}
+.delivery {
+	&__link {
+	}
+}
+.big {
+	&_button {
+	}
 }
