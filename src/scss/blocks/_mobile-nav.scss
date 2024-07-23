@@ -72,66 +72,125 @@
 // 	height: 20px;
 // 	width: 20px;
 // }
-
+.svg-icons--closeNavBtn-dims {
+	height: 35px;
+	width: 35px;
+}
+.svg-header--nav-time-dims,
+.svg-header--nav-map-dims,
+.svg-header--nav-phone-dims {
+	width: 20px;
+	height: 20px;
+}
 .mobile-nav {
-	z-index: 1;
-	display: flex;
-	transition: 0.7s;
-	position: absolute;
-	background-color: rgba($color: #1b1b1b, $alpha: 0.96);
-	width: 100vw;
-	height: 100vh;
 	&__inner {
+		z-index: 1;
+		display: flex;
+		transition: 0.7s;
+		position: absolute;
+		background-color: rgba($color: #1b1b1b, $alpha: 0.96);
+		// width: 100vw;
+		width: calc(100vw - 17px);
+		height: 100vh;
 	}
 	&__close {
+		position: absolute;
+		top: 24px;
+		right: 24px;
 	}
 	&__close-icon {
 	}
 	&__main {
+		padding: 30px 40px;
+		// padding-left: 40px;
+		// padding-top: 30px;
+		// padding-bottom: 30px;
+		background-color: #fff;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 	&__head {
 	}
 }
-.logo {
+.nav-logo {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 36px;
 }
 .logo-img {
+	height: 124px;
+	width: 124px;
 }
 .mobile-menu {
+	// margin-right: 70px;
 	&__list {
+		display: flex;
+		flex-direction: column;
+		row-gap: 24px;
 	}
 	&__item {
 	}
 	&__link {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 20px;
 	}
 	&__text-rus {
+		&::after {
+			@extend %font-Microsoft-Jhenghei-700;
+			content: ' / ';
+		}
 	}
 	&__text-chi {
+		@extend %font-Microsoft-Jhenghei-700;
 	}
 }
 .mobive-nav {
 	&__footer {
 	}
 	&__point-info {
+		padding-bottom: 32px;
+		margin-bottom: 24px;
+		border-bottom: solid #d9d9d9 1px;
 	}
 	&__point-work-time {
+		margin-bottom: 16px;
 	}
+
 	&__point-work-time-text {
 	}
 	&__point-adress {
 	}
 	&__point-adress-text {
+		padding-bottom: 4px;
+		border-bottom: 2px dashed var(--color-text-dark);
 	}
 	&__phone {
+		margin-bottom: 30px;
 	}
 	&__phone-text {
+		font-size: 20px;
 	}
 }
-.svg-header--time-dims {
+.mobive-nav__to-user > .mobile-nav {
+	&__to-user-account-btn {
+		width: auto;
+	}
 }
-.svg-footer--map-dims {
+.mobive-nav__to-user > .delivery__link > .header__booking-text-rus {
+	order: -2;
+	max-width: none;
 }
-.svg-header--phone-dims {
+.mobive-nav__to-user > .delivery__link  > .header__booking-separator {
+	order: -1;
 }
+.svg-header--nav-time-dims,
+.svg-header--nav-map-dims,
+.svg-header--nav-phone-dims {
+	margin-right: 8px;
+}
+
 .header {
 	&__booking {
 	}
