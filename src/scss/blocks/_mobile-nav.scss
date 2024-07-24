@@ -89,10 +89,11 @@
 		transition: 0.7s;
 		position: absolute;
 		background-color: rgba($color: #1b1b1b, $alpha: 0.96);
-		// width: 100vw;
-		width: calc(100vw - 17px);
+		width: 100vw;
+		// width: calc(100vw - var(--scrollbar-width));
 		height: 100vh;
 	}
+
 	&__close {
 		position: absolute;
 		top: 24px;
@@ -101,16 +102,21 @@
 	&__close-icon {
 	}
 	&__main {
+		max-width: 80vw;
 		padding: 30px 40px;
-		// padding-left: 40px;
-		// padding-top: 30px;
-		// padding-bottom: 30px;
 		background-color: #fff;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 	}
 	&__head {
+	}
+}
+@media (min-device-width: 1025px) {
+	.mobile-nav {
+		&__inner {
+			width: calc(100vw - var(--scrollbar-width));
+		}
 	}
 }
 .nav-logo {
@@ -161,10 +167,18 @@
 	&__point-work-time-text {
 	}
 	&__point-adress {
+		display: flex;
+		align-items: center;
 	}
 	&__point-adress-text {
+		text-decoration-line: underline;
+		text-decoration-style: dashed;
+		text-decoration-thickness: 2px;
+		text-underline-offset: 6px;
+
+		line-height: 30px;
 		padding-bottom: 4px;
-		border-bottom: 2px dashed var(--color-text-dark);
+		// border-bottom: 2px dashed var(--color-text-dark);
 	}
 	&__phone {
 		margin-bottom: 30px;
@@ -182,7 +196,7 @@
 	order: -2;
 	max-width: none;
 }
-.mobive-nav__to-user > .delivery__link  > .header__booking-separator {
+.mobive-nav__to-user > .delivery__link > .header__booking-separator {
 	order: -1;
 }
 .svg-header--nav-time-dims,
