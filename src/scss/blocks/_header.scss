@@ -140,6 +140,10 @@
 }
 .menu {
 	display: none;
+	text-transform: uppercase;
+	color: var(--color-text-light);
+	column-gap: 42px;
+	justify-content: center;
 	&__item {
 		&:nth-child(4)>.menu__link>.menu__text-rus{
 			display: flex;

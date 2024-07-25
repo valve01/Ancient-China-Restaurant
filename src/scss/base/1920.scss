@@ -114,6 +114,9 @@
 			column-gap: 12px;
 			align-items: center;
 		}
+		&__phone {
+			display: flex;
+		}
 	}
 	.svg-footer--map-dims {
 		width: 19px;
@@ -140,12 +143,12 @@
 	.mobile-burger-btn {
 		display: none;
 	}
+	.navigation {
+		margin-left: 0;
+	}
 	.menu {
-		text-transform: uppercase;
-		color: var(--color-text-light);
 		display: flex;
-		column-gap: 42px;
-		justify-content: center;
+
 
 		&__link {
 			display: grid;
