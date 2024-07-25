@@ -1,7 +1,26 @@
 //Mobile first
-// @media (min-width: 1024px) {
-
-// }
+@media (min-width: 1024px) {
+	.mobile-burger-btn {
+		display: none;
+	}
+	.menu {
+		display: flex;
+		&__link {
+			display: grid;
+			grid-template-rows: repeat(1fr);
+			justify-items: center;
+		}
+	}
+	.logo {
+		top: 102px;
+	}
+	.header {
+		&__phone {
+			position: static;
+			margin-right: 40px;
+		}
+	}
+}
 
 // Desktop first
 // @media (max-width: 1024px) {

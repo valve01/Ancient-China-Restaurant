@@ -1,5 +1,5 @@
 
-// import mobileNav from './modules/mobile-nav';
+import mobileNav from './modules/mobile-nav';
 import aboutSliderSwitcher from './modules/about-slider-switcher';
 
 import './modules/calcScrollbarWidth';
@@ -11,6 +11,6 @@ import './modules/reviews-slider';
 import './modules/counter';
 
 
-// mobileNav();
+mobileNav();
 aboutSliderSwitcher()
 
