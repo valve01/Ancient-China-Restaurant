@@ -95,11 +95,15 @@
 		background-color: var(--color-accent);
 		border-radius: 7px;
 	}
+
+
 	&__booking-text-rus {
+		margin-right: 20px;
+		margin-left: 20px;
 		@extend %font-Gilroy-500;
 		font-size: 11px;
 		text-align: right;
-		// margin: 13px 17px;
+
 	}
 	&__booking-text {
 	}
