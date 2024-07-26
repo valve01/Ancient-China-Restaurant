@@ -32,6 +32,8 @@ $('.aboutUs__slider-inside').slick({
 $('.aboutUs__slider-inside-mini').slick({
 	// infinite: true,
 	slidesToShow: 3,
+	// variableWidth: true,
+	// swipeToSlide:true,
 	slidesToScroll: 2,
 	asNavFor: '.aboutUs__slider-inside',
 	focusOnSelect: true,

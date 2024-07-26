@@ -56,14 +56,12 @@
 		translate: 0px -3px;
 	}
 }
-.red-shine{
-	transition: all 0.2s ease-in-out;
-	&:hover{
-		filter: drop-shadow(0 0 7px var(--color-accent));
-	}
-	
-	
-}
+// .red-shine{
+// 	transition: all 0.2s ease-in-out;
+// 	&:hover{
+// 		filter: drop-shadow(0 0 7px var(--color-accent));
+// 	}
+// }
 .in-dev-body{
 	background-color:var(--color-text-dark);
 }

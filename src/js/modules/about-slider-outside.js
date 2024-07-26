@@ -33,6 +33,7 @@ $('.aboutUs__slider-outside-mini').slick({
 	// infinite: true,
 	slidesToShow: 3,
 	slidesToScroll:2,
+	swipeToSlide:true,
 	asNavFor: '.aboutUs__slider-outside',
 	focusOnSelect: true,
 	arrows: false,

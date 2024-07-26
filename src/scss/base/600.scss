@@ -272,13 +272,17 @@
 			padding: 6px;
 			border-radius: 31px 0 0 31px;
 			&::after {
-				background-image: linear-gradient(90deg, transparent 0%, #eeeeee 50%);
+				background-image: linear-gradient(90deg, transparent 0%, #eeeeee 90%);
+				width: 120px;
+			}
+			&::before {
+				background-image: linear-gradient(90deg, #eeeeee 0%, transparent 90%);
 				width: 120px;
 			}
 		}
 		&__item {
 			padding: 11px 22px;
-			border-radius: 25px;
+			// border-radius: 25px;
 		}
 		&__text-rus {
 			font-size: 20px;
@@ -290,6 +294,13 @@
 			top: calc(50% - 17.5px);
 			right: 5px;
 		}
+	}
+	.slick-slide{
+		border-radius: 25px;
+
+	}
+	.slick-slide.slick-current.slick-active{
+		border-radius: 25px;
 	}
 	.dish-card {
 		&__img-container {
