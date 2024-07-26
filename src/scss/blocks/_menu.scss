@@ -157,14 +157,14 @@ left: 2px;
 	}
 
 }
-.slick-slide{
+.menu-categories__list .slick-slide{
 	border-radius: 20px;
 	transition: all 0.2s ease-in-out;
 	&:hover{
 		background-color: #969595;
 	}
 }
-.slick-slide.slick-current.slick-active{
+.menu-categories__list .slick-slide.slick-current.slick-active{
 	background-color: var(--color-accent);
 	color: var(--color-text-light);
 	border-radius: 20px;
