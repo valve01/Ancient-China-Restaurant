@@ -19,7 +19,7 @@
 		}
 		&__slider-text-main {
 			margin: 0 auto;
-			max-width: 500px;
+			// max-width: 500px;
 			font-size: 60px;
 		}
 		&__slider-text-chi {
@@ -68,7 +68,8 @@
 			column-gap: 21px;
 			position: absolute;
 			top: 496px;
-			// left: calc(50% - 280px);
+			left: calc(50% - 135px);
+
 		}
 		&__booking-link {
 			width: 270px;

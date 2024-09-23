@@ -4,6 +4,10 @@
 // }
 
 // Desktop first
-// @media (max-width: 320px) {
-
-// }
+@media (min-width: 320px) {
+	.header {
+		&__to-index {
+			left: calc(50% - 111px);
+		}
+	}
+}
