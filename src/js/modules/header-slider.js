@@ -21,6 +21,9 @@ $('.header__slider').slick({
 	slidesToScroll: 1,
 	prevArrow: '<button type="button" class="header__slider-prev header__slider-arrows"></button>',
 	nextArrow: '<button type="button" class="header__slider-next header__slider-arrows"></button>',
+	autoplay: true,
+	autoplaySpeed: 5000,
+	pauseOnDotsHover:true,
 	responsive: [
 		{
 			breakpoint: 1024,

@@ -9,8 +9,11 @@ $('.reviews__slider-list').slick({
 	slidesToScroll: 1,
 	prevArrow: '<button type="button" class="header__slider-prev header__slider-arrows"></button>',
 	nextArrow: '<button type="button" class="header__slider-next header__slider-arrows"></button>',
-	adaptiveHeight: true,
+	// adaptiveHeight: true,
 	mobileFirst: true,
+	autoplay: true,
+	autoplaySpeed: 15000,
+	pauseOnDotsHover:true,
 	responsive: [
 		{
 			breakpoint: 1200,
