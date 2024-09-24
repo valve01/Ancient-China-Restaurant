@@ -17,14 +17,12 @@ cards.forEach((card) => {
 		}
 	});
 
-	if (cardCounter.value.lenght == 1) {
-		cardCounter.addEventListener('keydown', (e) => {
-			if (e.keys('backspace')) {
-				count = 0;
-				cardCounter.value = count;
-			}
-		});
-	}
+	cardCounter.addEventListener('keydown', (e) => {
+		if (e.keyCode == 8 && e.target.value.length == 1) {
+			count = 0;
+			cardCounter.value = count;
+		}
+	});
 
 	incrementBtn.addEventListener('click', (e) => {
 		e.preventDefault();
