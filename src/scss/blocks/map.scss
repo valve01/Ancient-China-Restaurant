@@ -2,6 +2,13 @@
 	&__inner {
 		position: relative;
 	}
+	&__title{
+		height: 0;
+		width: 0;
+		position: absolute;
+		z-index: -999;
+		opacity: 0;
+	}
 	&__ya-map-box {
 	}
 	&__switcher {
