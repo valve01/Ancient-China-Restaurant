@@ -436,6 +436,7 @@
 		}
 	}
 	&__minus-icon {
+		display: block;
 		margin-left: 16px;
 		width: 9px;
 		height: 3px;
@@ -453,6 +454,7 @@
 		@extend %font-Gilroy-700;
 	}
 	&__plus-icon {
+		display: block;
 		width: 9px;
 		height: 9px;
 		background-color: var(--color-text-dark);
