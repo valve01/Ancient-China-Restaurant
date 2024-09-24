@@ -4,6 +4,7 @@
 		display: none;
 	}
 	.menu {
+		column-gap: 42px;
 		display: flex;
 		&__link {
 			display: grid;

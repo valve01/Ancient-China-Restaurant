@@ -5,6 +5,7 @@
 	}
 	.menu {
 		display: flex;
+		column-gap: 30px;
 		&__link {
 			display: grid;
 			grid-template-rows: repeat(1fr);
