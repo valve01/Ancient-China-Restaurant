@@ -22,7 +22,7 @@ $('.header__slider').slick({
 	prevArrow: '<button type="button" class="header__slider-prev header__slider-arrows"></button>',
 	nextArrow: '<button type="button" class="header__slider-next header__slider-arrows"></button>',
 	autoplay: true,
-	autoplaySpeed: 5000,
+	autoplaySpeed: 8000,
 	pauseOnDotsHover:true,
 	responsive: [
 		{

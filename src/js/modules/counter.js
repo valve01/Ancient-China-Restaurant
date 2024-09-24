@@ -10,9 +10,21 @@ cards.forEach((card) => {
 
 	cardCounter.addEventListener('input', () => {
 		if (!Number.isInteger(parseInt(cardCounter.value))) {
-			cardCounter.value = '0';
+			cardCounter.value = count;
+		} else {
+			count = parseInt(cardCounter.value);
+			cardCounter.value = count;
 		}
 	});
+
+	if (cardCounter.value.lenght == 1) {
+		cardCounter.addEventListener('keydown', (e) => {
+			if (e.keys('backspace')) {
+				count = 0;
+				cardCounter.value = count;
+			}
+		});
+	}
 
 	incrementBtn.addEventListener('click', (e) => {
 		e.preventDefault();
