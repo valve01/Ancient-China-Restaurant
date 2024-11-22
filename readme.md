@@ -14,6 +14,7 @@
 - CSS 3
 - SCSS
 - Vanilla JS
+- БЭМ
 - Gulp
 - Webpack
 - SVG
